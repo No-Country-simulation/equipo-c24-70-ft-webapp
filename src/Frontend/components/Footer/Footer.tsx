@@ -2,7 +2,7 @@ import { FaGithub } from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className="flex justify-between items-center px-12">
+    <footer className="flex justify-between items-center py-4 px-12">
       <a
         className="text-3xl"
         href="https://github.com/No-Country-simulation/equipo-c24-70-ft-webapp"
