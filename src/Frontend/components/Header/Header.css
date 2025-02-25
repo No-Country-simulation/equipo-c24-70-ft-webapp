@@ -1,0 +1,11 @@
+.header__hidden-menu__container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.header__hidden-menu__container.active {
+  transform: translateX(0);
+}

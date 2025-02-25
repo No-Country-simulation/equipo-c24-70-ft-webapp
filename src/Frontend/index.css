@@ -9,7 +9,17 @@
   --primary-font-family: "Titillium Web", serif;
 }
 
-body{
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
   background-color: var(--background-light);
   font-family: var(--primary-font-family);
 }

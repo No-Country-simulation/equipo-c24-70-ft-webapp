@@ -1,0 +1,31 @@
+.header__navbar {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--accent-lime-color);
+}
+
+.header__navbar ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+@media screen and (min-width: 768px) {
+  .header__navbar {
+    width: auto;
+    height: auto;
+    background-color: transparent;
+  }
+
+  .header__navbar ul {
+    flex-direction: row;
+    gap: 1rem;
+    /* font-weight: normal; */
+    font-size: 1em;
+  }
+}
