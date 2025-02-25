@@ -1,4 +1,4 @@
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaPalette } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -13,7 +13,15 @@ function Footer() {
         <FaGithub />
       </a>
       <p>TrustLock copyright © 2025. All Rights Reserved.</p>
-      <span className="w-[30px]"></span>
+      <a
+        className="text-3xl"
+        href="https://www.formfrom.design/illustration-pack/moneyfly"
+        target="blank"
+        rel="noopener noreferrer"
+        title="Paleta de colores"
+      >
+        <FaPalette />
+      </a>
     </footer>
   );
 }

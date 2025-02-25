@@ -1,3 +1,7 @@
 .hero {
   min-height: calc(100vh - 80px);
 }
+
+.text__accent-purple {
+  color: var(--purple-vivid-color);
+}
