@@ -1,5 +1,5 @@
 import LogoIcon from "../../../assets/logo.png";
-import { MdMenu, MdClose } from "react-icons/md";
+import { MdMenu, MdClose, MdPerson } from "react-icons/md";
 import HeaderNavBar from "./HeaderNavBar";
 import "./Header.css";
 import { useNavMenu } from "../../hooks/useNavMenu";
@@ -17,8 +17,13 @@ function Header() {
           </p>
         </a>
 
-        <div className="hidden md:flex">
-          <HeaderNavBar />
+        <div className="flex items-center gap-2">
+          <div className="hidden md:flex">
+            <HeaderNavBar />
+          </div>
+          <button className="text-3xl hover:opacity-75" title="Iniciar Sesión">
+            <MdPerson />
+          </button>
         </div>
 
         <button className="md:hidden text-3xl z-10" onClick={handleClick}>

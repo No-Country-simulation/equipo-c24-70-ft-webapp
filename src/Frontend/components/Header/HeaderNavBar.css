@@ -15,6 +15,14 @@
   font-size: 1.1em;
 }
 
+.header__navbar ul li {
+  transition: color 0.3s ease-in-out;
+}
+
+.header__navbar ul li:hover {
+  color: var(--purple-vivid-color);
+}
+
 @media screen and (min-width: 768px) {
   .header__navbar {
     width: auto;
