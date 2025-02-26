@@ -3,3 +3,8 @@ export interface FeatureCardProps {
   title: string;
   paragraph: string;
 }
+
+export interface CounterItemProps {
+  count: string;
+  text: string;
+}

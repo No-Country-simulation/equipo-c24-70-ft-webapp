@@ -32,6 +32,14 @@ body {
   margin: 0 auto;
 }
 
+.text__accent-purple {
+  color: var(--purple-vivid-color);
+}
+
+.text__accent-lime {
+  color: var(--accent-lime-color);
+}
+
 .btn__primary {
   font-size: 1.2em;
   font-weight: 600;
