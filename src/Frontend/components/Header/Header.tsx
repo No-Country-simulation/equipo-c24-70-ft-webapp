@@ -8,7 +8,7 @@ function Header() {
   const { isMenuOpen, handleClick } = useNavMenu();
 
   return (
-    <header className="px-10 py-6 text-[20px] font-[600]">
+    <header className="px-4 md:px-10 py-6 text-[20px] font-[600]">
       <div className="flex justify-between items-center">
         <a href="#" className="flex items-center gap-2 z-10">
           <img src={LogoIcon} alt="" width={32} />
@@ -21,14 +21,19 @@ function Header() {
           <div className="hidden md:flex">
             <HeaderNavBar />
           </div>
+
+          <button
+            className="md:hidden text-3xl z-10"
+            onClick={handleClick}
+            title="Abrir Menú"
+          >
+            {isMenuOpen ? <MdClose /> : <MdMenu />}
+          </button>
+
           <button className="text-3xl hover:opacity-75" title="Iniciar Sesión">
             <MdPerson />
           </button>
         </div>
-
-        <button className="md:hidden text-3xl z-10" onClick={handleClick}>
-          {isMenuOpen ? <MdClose /> : <MdMenu />}
-        </button>
 
         <div
           className={`${
