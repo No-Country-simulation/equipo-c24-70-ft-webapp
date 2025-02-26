@@ -4,9 +4,9 @@ import { CounterItemProps } from "../../Store/types";
 export const CounterItem: FC<CounterItemProps> = ({ count, text }) => {
   return (
     <div>
-      <h3 className="text__accent-purple">
+      <h3 className="text__accent-purple text-4xl font-semibold mb-2">
         {count}
-        <span>+</span>
+        <span className="text-2xl align-top">+</span>
       </h3>
       <p>{text}</p>
     </div>

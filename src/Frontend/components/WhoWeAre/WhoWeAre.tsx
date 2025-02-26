@@ -3,7 +3,10 @@ import { CounterItem } from "./CounterItem";
 
 function WhoWeAre() {
   return (
-    <section className="container grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-2 py-12">
+    <section
+      className="container who-we-are grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-2 py-12"
+      id="who-we-are"
+    >
       <article className="order-2 md:order-1 text-center md:text-left">
         <p className="text-lg uppercase mb-2">Quiénes somos</p>
         <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold mb-5">
@@ -21,9 +24,9 @@ function WhoWeAre() {
           <CounterItem count="18K" text="Sensores de red activos" />
         </footer>
       </article>
-      <aside className="order-1 md:order-2 w-2/3 md:w-96 mx-auto">
+      <figure className="order-1 md:order-2 w-2/3 md:w-96 mx-auto">
         <img className="w-full object-cover" src={WhoWeAreImg} alt="" />
-      </aside>
+      </figure>
     </section>
   );
 }
