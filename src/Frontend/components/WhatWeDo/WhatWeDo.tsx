@@ -3,13 +3,15 @@ import ShieldIcon from "../../../assets/shield-icon.png";
 
 const ShieldItem = () => {
   return (
-    <div className="flex items-center gap-2">
+    <div className="flex items-center gap-4">
       <figure>
         <img src={ShieldIcon} alt="" />
       </figure>
       <div>
-        <h3>Cyber Solutions</h3>
-        <p>Ruis autem vel eum rui inea elit niau.</p>
+        <h3 className="font-bold">Cyber Solutions</h3>
+        <p className="text-neutral-700 font-medium">
+          Ruis autem vel eum rui inea elit niau.
+        </p>
       </div>
     </div>
   );
@@ -30,7 +32,7 @@ function WhatWeDo() {
           Protegemos tu entorno digital con estrategias efectivas, brindando
           confianza y tranquilidad ante cualquier amenaza en línea.
         </p>
-        <footer className="grid grid-cols-2">
+        <footer className="grid grid-cols-2 gap-3">
           <ShieldItem />
           <ShieldItem />
           <ShieldItem />
