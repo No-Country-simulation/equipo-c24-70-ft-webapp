@@ -13,7 +13,7 @@ function Header() {
         <a href="#" className="flex items-center gap-2 z-10">
           <img src={LogoIcon} alt="" width={32} />
           <p className="font-normal">
-            Trust<span className="font-[600]">Lock</span>
+            Lock<span className="font-[600]">Key</span>
           </p>
         </a>
 

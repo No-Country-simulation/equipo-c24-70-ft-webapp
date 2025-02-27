@@ -9,14 +9,14 @@ import { FC } from "react";
 const pricingCardData = [
   {
     id: 1,
-    category: "Beginner",
+    category: "Personal",
     img: PricingPlanIcon1,
     price: 120,
     list: [
-      "10 Days Product Testing",
-      "Upgrade Anytime Protection",
-      "100 Malware Removal",
-      "Scan Every 08 Hrs",
+      "10 días de prueba",
+      "Carpetas compartidas",
+      "Eliminación de Malware",
+      "Escaneo cada 08 Hrs",
     ],
   },
   {
@@ -25,22 +25,22 @@ const pricingCardData = [
     img: PricingPlanIcon2,
     price: 180,
     list: [
-      "30 Days Product Testing",
-      "Upgrade Anytime Protection",
-      "200 Malware Removal",
-      "24/7 Live Assistance",
+      "1GB de almacenamiento",
+      "Uso compartido",
+      "Acceso a multiples dispositivos",
+      "Escaneo cada 1 Hr",
     ],
   },
   {
     id: 3,
-    category: "Professional",
+    category: "Premium",
     img: PricingPlanIcon3,
     price: 200,
     list: [
-      "50 Days Product Testing",
-      "Upgrade Anytime Protection",
-      "500 Malware Removal",
-      "Scan Every 1 Hr",
+      "Sin límite de contraseñas",
+      "Usuarios ilimitados",
+      "Panel de seguridad de equipo",
+      "Asistencia técnica 24/7",
     ],
   },
 ];
@@ -56,7 +56,7 @@ const PricingCard: FC<PricingCardProps> = ({ category, img, price, list }) => {
   return (
     <a
       href="#"
-      className="pricing-card__container rounded-lg py-8 px-8 xl:px-14"
+      className="pricing-card__container rounded-lg py-8 px-8 xl:px-12"
     >
       <span className="pricing-card__category">{category}</span>
       <figure className="flex justify-center mb-4">
@@ -64,7 +64,7 @@ const PricingCard: FC<PricingCardProps> = ({ category, img, price, list }) => {
       </figure>
       <div className="mb-4">
         <strong className="text-5xl">${price}</strong>
-        <p>/ Per Month</p>
+        <p>/ Al mes</p>
       </div>
       <div className="text-left">
         <ul className="pricing-card__list [&>li]:flex [&>li]:items-center [&>li]:gap-2 [&>li]:mb-3">

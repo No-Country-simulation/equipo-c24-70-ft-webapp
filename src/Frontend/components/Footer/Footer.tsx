@@ -13,12 +13,12 @@ function Footer() {
         <FaGithub />
       </a>
       <p>
-        TrustLock copyright © 2025. All Rights{" "}
+        LockKey copyright © 2025. Todos los derechos{" "}
         <a
           href="https://html.designingmedia.com/whizcyber/index.html"
           target="_blank"
         >
-          Reserved
+          reservados
         </a>
         .
       </p>
