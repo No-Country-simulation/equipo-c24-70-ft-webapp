@@ -13,3 +13,10 @@ export interface ShieldItemProps {
   title: string;
   text: string;
 }
+
+export interface PricingCardProps {
+  category: string;
+  img: string;
+  price: number;
+  list: string[];
+}

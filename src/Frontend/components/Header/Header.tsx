@@ -10,7 +10,11 @@ function Header() {
   return (
     <header className="px-4 md:px-10 py-6 text-[20px] font-[600]">
       <div className="flex justify-between items-center">
-        <a href="#" className="flex items-center gap-2 z-10">
+        <a
+          href="#"
+          className="flex items-center gap-2 z-10"
+          title="Ir al Inicio"
+        >
           <img src={LogoIcon} alt="" width={32} />
           <p className="font-normal">
             Lock<span className="font-[600]">Key</span>
