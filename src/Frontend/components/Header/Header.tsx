@@ -25,7 +25,7 @@ function Header() {
           <button
             className="md:hidden text-3xl z-10"
             onClick={handleClick}
-            title="Abrir Menú"
+            title={`${isMenuOpen ? "Cerrar Menú" : "Abrir Menú"}`}
           >
             {isMenuOpen ? <MdClose /> : <MdMenu />}
           </button>
