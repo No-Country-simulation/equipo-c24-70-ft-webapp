@@ -3,7 +3,10 @@ import { ShieldItem } from "./ShieldItem";
 
 function WhatWeDo() {
   return (
-    <section className="container grid grid-cols-1 lg:grid-cols-5 justify-center items-center gap-2 py-12">
+    <section
+      className="container what-we-do grid grid-cols-1 lg:grid-cols-5 justify-center items-center gap-2 py-12"
+      id="what-we-do"
+    >
       <figure className="w-2/3 md:max-w-72 xl:max-w-96 mx-auto lg:col-span-2">
         <img className="w-full object-cover" src={WhatWeDoImg} alt="" />
       </figure>

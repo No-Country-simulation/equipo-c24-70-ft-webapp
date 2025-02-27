@@ -1,6 +1,8 @@
 :root {
   --accent-lime-color: #cff500;
   --purple-vivid-color: #a66cff;
+  --background-white: #fff;
+  --background-white-fade: rgba(255, 255, 255, 0.6);
   --background-light: #ebe9e9;
   --background-dark: #1f2937;
   --background-black: #000;
