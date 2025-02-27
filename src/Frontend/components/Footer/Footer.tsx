@@ -2,7 +2,10 @@ import { FaGithub, FaPalette } from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className="flex justify-between items-center py-4 px-12">
+    <footer
+      className="footer bg-black text-white flex justify-between items-center py-4 px-12"
+      id="footer"
+    >
       <a
         className="text-3xl"
         href="https://github.com/No-Country-simulation/equipo-c24-70-ft-webapp"

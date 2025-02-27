@@ -16,7 +16,7 @@
 }
 
 .header__navbar ul li {
-  transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 @media screen and (min-width: 768px) {
@@ -32,7 +32,7 @@
     font-size: 1em;
   }
 
-  .header__navbar ul li:hover {
+  .header__navbar ul li:not(:last-child):hover {
     color: var(--purple-vivid-color);
   }
 }
