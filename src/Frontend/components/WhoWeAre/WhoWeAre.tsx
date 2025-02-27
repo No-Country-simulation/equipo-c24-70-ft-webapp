@@ -10,8 +10,9 @@ function WhoWeAre() {
       <article className="order-2 md:order-1 text-center md:text-left">
         <p className="text-lg uppercase mb-2">Quiénes somos</p>
         <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold mb-5">
-          Protegiendo tu seguridad digital con dedicación, tecnología y
-          confianza
+          Protegiendo{" "}
+          <span className="text__accent-purple">tu seguridad digital</span> con
+          dedicación, tecnología y confianza
         </h2>
         <p className="text-lg mb-5">
           Somos un equipo comprometido con la ciberseguridad, ofreciendo

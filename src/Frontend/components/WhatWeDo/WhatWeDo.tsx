@@ -13,7 +13,8 @@ function WhatWeDo() {
       <article className="text-center md:text-left lg:col-span-3">
         <p className="text-lg uppercase mb-2">Nuestra misión</p>
         <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold mb-5">
-          Seguridad integral para una defensa digital sin límites.
+          Seguridad integral para una defensa digital{" "}
+          <span className="text__accent-purple">sin límites</span>.
         </h2>
         <p className="text-lg mb-5 text-neutral-600">
           Protegemos tu entorno digital con estrategias efectivas, brindando

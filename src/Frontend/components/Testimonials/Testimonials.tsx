@@ -9,6 +9,8 @@ import TestimonyUser3 from "../../../assets/testimony-user3.webp";
 import TestimonyUser4 from "../../../assets/testimony-user4.webp";
 import TestimonyUser5 from "../../../assets/testimony-user5.webp";
 
+import QuoteImg from "../../../assets/quote-img.png";
+
 const testimonialsItems = [
   {
     id: 1,
@@ -85,7 +87,7 @@ const Carousel = () => {
             </figure>
             <div>
               <h3 className="font-bold text-xl">{item.name}</h3>
-              <h4 className="mb-10">{item.position}</h4>
+              <h4 className="mb-10 text-neutral-700">{item.position}</h4>
             </div>
           </SwiperSlide>
         ))}
@@ -97,15 +99,22 @@ const Carousel = () => {
 function Testimonials() {
   return (
     <section
-      className="testimonials background__accent-lime min-h-screen py-16"
+      className="testimonials relative background__accent-lime min-h-screen py-16"
       id="testimonials"
     >
       <article>
-        <h2 className="text-center font-semibold text-2xl mb-8">
+        <h2 className="text-center font-semibold text-2xl mb-8 text-neutral-700">
           Nuestro valor en palabras de quienes más importan
         </h2>
         <Carousel />
       </article>
+      <img
+        className="absolute bottom-0 right-0"
+        src={QuoteImg}
+        alt="Signo de comillas"
+        width={305}
+        height={227}
+      />
     </section>
   );
 }

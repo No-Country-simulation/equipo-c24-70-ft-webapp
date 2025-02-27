@@ -1,4 +1,4 @@
-import LogoIcon from "../../../assets/logo.png";
+import LogoIcon from "../../../assets/logo-icon.png";
 import { MdMenu, MdClose, MdPerson } from "react-icons/md";
 import HeaderNavBar from "./HeaderNavBar";
 import "./Header.css";
@@ -15,7 +15,7 @@ function Header() {
           className="flex items-center gap-2 z-10"
           title="Ir al Inicio"
         >
-          <img src={LogoIcon} alt="" width={32} />
+          <img src={LogoIcon} alt="" width={36} />
           <p className="font-normal">
             Lock<span className="font-[600]">Key</span>
           </p>
