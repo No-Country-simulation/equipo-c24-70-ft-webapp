@@ -10,18 +10,19 @@ function WhoWeAre() {
       <article className="order-2 md:order-1 text-center md:text-left">
         <p className="text-lg uppercase mb-2">Quiénes somos</p>
         <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold mb-5">
-          Dedicamos 30,000 horas al año a combatir amenazas de virus
+          Protegiendo tu seguridad digital con dedicación, tecnología y
+          confianza
         </h2>
         <p className="text-lg mb-5">
-          Nos especializamos en detectar y neutralizar amenazas digitales,
-          asegurando protección constante. Con tecnología avanzada y
-          experiencia, trabajamos incansablemente para mantener seguros tus
-          dispositivos y datos frente a cualquier riesgo cibernético.
+          Somos un equipo comprometido con la ciberseguridad, ofreciendo
+          soluciones innovadoras para proteger información valiosa. Nuestra
+          misión es garantizar la tranquilidad digital de usuarios y empresas
+          con tecnología avanzada y eficiente.
         </p>
-        <footer className="flex flex-col md:flex-row gap-4">
+        <footer className="flex flex-col md:flex-row gap-8">
           <CounterItem count="2K" text="Reseñas positivas" />
-          <CounterItem count="17M" text="Dispositivos monitorizados" />
-          <CounterItem count="18K" text="Sensores de red activos" />
+          <CounterItem count="17M" text="Usuarios protegidos" />
+          <CounterItem count="18K" text="Empresas afiliadas" />
         </footer>
       </article>
       <figure className="order-1 md:order-2 w-2/3 md:w-96 mx-auto">

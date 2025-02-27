@@ -32,7 +32,7 @@ const testimonialsItems = [
     position: "CEO en CyberSafe Solutions",
     img: TestimonyUser3,
     review:
-      "La protección y simplicidad de esta plataforma han superado nuestras expectativas. Ahora nuestro equipo puede gestionar credenciales de manera eficiente sin comprometer la seguridad. ¡Excelente herramienta!",
+      "La protección y simplicidad de LockKey ha superado nuestras expectativas. Ahora nuestro equipo puede gestionar credenciales de manera eficiente sin comprometer la seguridad. ¡Excelente herramienta!",
   },
   {
     id: 4,
@@ -40,7 +40,7 @@ const testimonialsItems = [
     position: "Gerente de Infraestructura en CloudProtect",
     img: TestimonyUser4,
     review:
-      "Desde que implementamos esta herramienta, hemos eliminado riesgos innecesarios en la administración de claves. La auditoría de accesos y la encriptación avanzada nos dan una protección que realmente marca la diferencia.",
+      "Desde que implementamos LockKey, hemos eliminado riesgos innecesarios en la administración de claves. La auditoría de accesos y la encriptación avanzada nos dan una protección que realmente marca la diferencia.",
   },
   {
     id: 5,
@@ -48,7 +48,7 @@ const testimonialsItems = [
     position: "Especialista en Ciberseguridad en SecureNet",
     img: TestimonyUser5,
     review:
-      "Hemos probado varios gestores de contraseñas, pero este es el único que cumple con nuestros exigentes estándares de seguridad. La encriptación es de primer nivel y la experiencia de usuario es impecable.",
+      "Hemos probado varios gestores de contraseñas, pero LockKey es el único que cumple con nuestros exigentes estándares de seguridad. La encriptación es de primer nivel y la experiencia de usuario es impecable.",
   },
 ];
 
@@ -66,7 +66,7 @@ const Carousel = () => {
       >
         {testimonialsItems.map((item) => (
           <SwiperSlide className="flex items-center text-center justify-center">
-            <div className="flex justify-center text-3xl mb-3">
+            <div className="flex justify-center text-3xl mb-3 text-yellow-400">
               <MdStar />
               <MdStar />
               <MdStar />
@@ -84,7 +84,7 @@ const Carousel = () => {
               />
             </figure>
             <div>
-              <h3>{item.name}</h3>
+              <h3 className="font-bold text-xl">{item.name}</h3>
               <h4 className="mb-10">{item.position}</h4>
             </div>
           </SwiperSlide>
