@@ -4,6 +4,7 @@ import PricingPlanIcon2 from "../../../assets/pricing-plan-icon2.png";
 import PricingPlanIcon3 from "../../../assets/pricing-plan-icon3.png";
 
 import "./PricingCard.css";
+import { FC } from "react";
 
 const pricingCardData = [
   {
@@ -44,7 +45,14 @@ const pricingCardData = [
   },
 ];
 
-const PricingCard = ({ category, img, price, list }) => {
+interface PricingCardProps {
+  category: string;
+  img: string;
+  price: number;
+  list: string[];
+}
+
+const PricingCard: FC<PricingCardProps> = ({ category, img, price, list }) => {
   return (
     <a
       href="#"
@@ -59,11 +67,11 @@ const PricingCard = ({ category, img, price, list }) => {
         <p>/ Per Month</p>
       </div>
       <div className="text-left">
-        <ul className="pricing-card__list [&>li]:flex [&>li]:items-center [&>li]:gap-2 [&>li]:mb-2">
+        <ul className="pricing-card__list [&>li]:flex [&>li]:items-center [&>li]:gap-2 [&>li]:mb-3">
           {list.map((item: string, index: number) => (
             <li key={index}>
               <span>
-                <FaCheck />
+                <FaCheck size={14} />
               </span>
               <p>{item}</p>
             </li>
@@ -86,11 +94,11 @@ function PricingPlans() {
           Planes de protección diseñados para cada necesidad.
         </h2>
 
-        <footer className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 gap-y-12">
           {pricingCardData.map((item) => (
             <PricingCard key={item.id} {...item} />
           ))}
-        </footer>
+        </div>
       </article>
     </section>
   );

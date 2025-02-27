@@ -1,8 +1,8 @@
 .pricing-card__container {
   position: relative;
   border: 2px solid transparent;
-  transition: border 0.3s ease-in-out;
   background-color: var(--background-white-fade);
+  transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out;
 }
 
 .pricing-card__category {
@@ -11,6 +11,7 @@
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   background-color: var(--accent-lime-color);
+  font-size: 1.15em;
   font-weight: 600;
   padding: 0.5rem 1.5rem;
   border-radius: 0.5rem;
@@ -19,6 +20,7 @@
 
 .pricing-card__container:hover {
   border: 2px solid var(--background-black);
+  background-color: var(--background-white);
 }
 
 .pricing-card__container:hover .pricing-card__category {
