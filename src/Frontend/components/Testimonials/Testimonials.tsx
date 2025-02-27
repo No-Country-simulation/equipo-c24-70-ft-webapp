@@ -66,7 +66,7 @@ const Carousel = () => {
       >
         {testimonialsItems.map((item) => (
           <SwiperSlide className="flex items-center text-center justify-center">
-            <div className="flex justify-center text-3xl mb-3 text-yellow-400">
+            <div className="flex justify-center text-3xl mb-3 text__accent-purple">
               <MdStar />
               <MdStar />
               <MdStar />
@@ -96,7 +96,10 @@ const Carousel = () => {
 
 function Testimonials() {
   return (
-    <section className="testimonials" id="testimonials">
+    <section
+      className="testimonials background__accent-lime min-h-screen py-16"
+      id="testimonials"
+    >
       <article>
         <h2 className="text-center font-semibold text-2xl mb-8">
           Nuestro valor en palabras de quienes más importan

@@ -42,6 +42,10 @@ body {
   color: var(--accent-lime-color);
 }
 
+.background__accent-lime {
+  background-color: var(--accent-lime-color);
+}
+
 .btn__primary {
   font-size: 1.2em;
   font-weight: 600;
