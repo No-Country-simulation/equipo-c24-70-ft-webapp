@@ -73,8 +73,8 @@ const Carousel = () => {
               <MdStar />
               <MdStar />
             </div>
-            <p className="text-2xl font-semibold w-3/4 mx-auto mb-4">
-              {item.review}
+            <p className="text-3xl font-semibold w-5/6 mx-auto mb-4">
+              "{item.review}"
             </p>
             <figure className="max-w-20 rounded-full overflow-hidden mx-auto mb-4">
               <img
@@ -96,8 +96,11 @@ const Carousel = () => {
 
 function Testimonials() {
   return (
-    <section className="container testimonials" id="testimonials">
+    <section className="testimonials" id="testimonials">
       <article>
+        <h2 className="text-center font-semibold text-2xl mb-8">
+          Nuestro valor en palabras de quienes más importan
+        </h2>
         <Carousel />
       </article>
     </section>
