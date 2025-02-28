@@ -36,8 +36,8 @@ const SocialIcons = () => {
 function Footer() {
   return (
     <footer className="footer bg-black text-white" id="footer">
-      <section className="grid grid-cols-4 gap-8 py-20 border-b border-neutral-700 px-12">
-        <article className="flex flex-col gap-4">
+      <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-8 py-20 border-b border-neutral-700 px-6 sm:px-8 lg:px-20">
+        <article className="xl:col-span-2 flex flex-col gap-4">
           <div className="flex items-center gap-2">
             <img
               src={LogoIcon}
@@ -48,7 +48,7 @@ function Footer() {
               Lock<strong>Key</strong>
             </h2>
           </div>
-          <p className="mb-3">
+          <p className="mb-3 text-neutral-400">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
             eligendi nisi cum enim error nulla laudantium reprehenderit
             cupiditate ipsa voluptas?
@@ -74,7 +74,7 @@ function Footer() {
         </article>
         <article>
           <h2 className="footer__title">Información de Contacto</h2>
-          <ul className="footer__list [&>li]:flex [&>li]:gap-2">
+          <ul className="footer__list [&>li]:flex [&>li]:gap-3 [&>li]:items-center">
             <li>
               <FaPhone />
               <a href="#">+61 3 8376 6284</a>
@@ -85,7 +85,7 @@ function Footer() {
             </li>
             <li>
               <FaMapMarker />
-              <a href="#">21 King Street Melbourne, 3000, Australia</a>
+              <a href="#">21 King Street, Melbourne</a>
             </li>
           </ul>
         </article>
@@ -107,7 +107,7 @@ function Footer() {
           </form>
         </article>
       </section>
-      <article className="flex justify-between items-center px-12 py-6">
+      <article className="flex justify-between items-center px-6 lg:px-20 py-6">
         <a
           className="text-3xl footer__link"
           href="https://github.com/No-Country-simulation/equipo-c24-70-ft-webapp"
@@ -117,7 +117,7 @@ function Footer() {
         >
           <FaGithub />
         </a>
-        <p>
+        <p className="text-neutral-400 text-center w-2/3 md:w-auto">
           LockKey copyright © 2025. Todos los derechos{" "}
           <a
             href="https://html.designingmedia.com/whizcyber/index.html"

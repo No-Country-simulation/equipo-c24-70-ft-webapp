@@ -5,6 +5,8 @@
 }
 
 .footer__list li {
+  font-size: 1.1em;
+  color: var(--text-gray);
   margin-bottom: 0.5rem;
 }
 
@@ -15,6 +17,11 @@
 .footer__navbar li {
   list-style: disc;
   margin-left: 1rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer__navbar li:hover {
+  color: var(--accent-lime-color);
 }
 
 .footer__navbar li::marker {
