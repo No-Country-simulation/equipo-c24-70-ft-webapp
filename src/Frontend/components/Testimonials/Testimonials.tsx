@@ -10,8 +10,9 @@ import TestimonyUser4 from "../../../assets/testimony-user4.webp";
 import TestimonyUser5 from "../../../assets/testimony-user5.webp";
 
 import QuoteImg from "../../../assets/quote-img.png";
+import { FC } from "react";
 
-const testimonialsItems = [
+const testimonials: Testimonial[] = [
   {
     id: 1,
     name: "Mariana López",
@@ -26,7 +27,7 @@ const testimonialsItems = [
     position: "Director de TI en DataShield",
     img: TestimonyUser2,
     review:
-      "Finalmente encontramos una solución confiable para la gestión de contraseñas. La integración con nuestras herramientas y la seguridad que ofrece son simplemente inigualables. Recomendado para cualquier empresa seria.",
+      "Finalmente encontramos una solución confiable para la gestión de contraseñas. La integración con nuestras herramientas y la seguridad que ofrece son inigualables. Recomendado para cualquier empresa seria.",
   },
   {
     id: 3,
@@ -54,7 +55,19 @@ const testimonialsItems = [
   },
 ];
 
-const Carousel = () => {
+interface Testimonial {
+  id: number;
+  name: string;
+  position: string;
+  img: string;
+  review: string;
+}
+
+interface CarouselProps {
+  testimonials: Testimonial[];
+}
+
+const Carousel: FC<CarouselProps> = ({ testimonials }) => {
   return (
     <div className="w-full max-w-4xl mx-auto">
       <Swiper
@@ -66,9 +79,9 @@ const Carousel = () => {
         autoplay={{ delay: 7000 }}
         loop
       >
-        {testimonialsItems.map((item) => (
+        {testimonials.map((testimonial) => (
           <SwiperSlide
-            key={item.id}
+            key={testimonial.id}
             className="flex items-center text-center justify-center"
           >
             <div className="flex justify-center text-3xl mb-3 text__accent-purple">
@@ -79,18 +92,18 @@ const Carousel = () => {
               <MdStar />
             </div>
             <p className="md:text-2xl font-semibold w-5/6 mx-auto mb-4">
-              "{item.review}"
+              "{testimonial.review}"
             </p>
             <figure className="max-w-20 rounded-full overflow-hidden mx-auto mb-4">
               <img
                 className="w-full object-cover"
-                src={item.img}
-                alt={`Imagén de ${item.name}`}
+                src={testimonial.img}
+                alt={`Imagén de ${testimonial.name}`}
               />
             </figure>
             <div>
-              <h3 className="font-bold text-xl">{item.name}</h3>
-              <h4 className="mb-10 text-neutral-700">{item.position}</h4>
+              <h3 className="font-bold text-xl">{testimonial.name}</h3>
+              <h4 className="mb-10 text-neutral-700">{testimonial.position}</h4>
             </div>
           </SwiperSlide>
         ))}
@@ -109,7 +122,7 @@ function Testimonials() {
         <h2 className="text-center font-semibold text-lg md:text-2xl mb-8 text-neutral-700 px-6">
           Nuestro valor en palabras de quienes más importan
         </h2>
-        <Carousel />
+        <Carousel testimonials={testimonials} />
       </article>
       <img
         className="absolute bottom-0 right-0 w-48 md:w-auto"
