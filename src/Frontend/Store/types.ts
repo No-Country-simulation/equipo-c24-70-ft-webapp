@@ -20,3 +20,15 @@ export interface PricingCardProps {
   price: number;
   list: string[];
 }
+
+export interface Testimonial {
+  id: number;
+  name: string;
+  position: string;
+  img: string;
+  review: string;
+}
+
+export interface CarouselProps {
+  testimonials: Testimonial[];
+}
