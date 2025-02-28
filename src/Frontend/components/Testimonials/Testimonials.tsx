@@ -67,7 +67,10 @@ const Carousel = () => {
         loop
       >
         {testimonialsItems.map((item) => (
-          <SwiperSlide className="flex items-center text-center justify-center">
+          <SwiperSlide
+            key={item.id}
+            className="flex items-center text-center justify-center"
+          >
             <div className="flex justify-center text-3xl mb-3 text__accent-purple">
               <MdStar />
               <MdStar />
@@ -75,7 +78,7 @@ const Carousel = () => {
               <MdStar />
               <MdStar />
             </div>
-            <p className="text-3xl font-semibold w-5/6 mx-auto mb-4">
+            <p className="md:text-2xl font-semibold w-5/6 mx-auto mb-4">
               "{item.review}"
             </p>
             <figure className="max-w-20 rounded-full overflow-hidden mx-auto mb-4">
@@ -99,17 +102,17 @@ const Carousel = () => {
 function Testimonials() {
   return (
     <section
-      className="testimonials relative background__accent-lime min-h-screen py-16"
+      className="testimonials relative background__accent-lime py-16"
       id="testimonials"
     >
       <article>
-        <h2 className="text-center font-semibold text-2xl mb-8 text-neutral-700">
+        <h2 className="text-center font-semibold text-lg md:text-2xl mb-8 text-neutral-700 px-6">
           Nuestro valor en palabras de quienes más importan
         </h2>
         <Carousel />
       </article>
       <img
-        className="absolute bottom-0 right-0"
+        className="absolute bottom-0 right-0 w-48 md:w-auto"
         src={QuoteImg}
         alt="Signo de comillas"
         width={305}

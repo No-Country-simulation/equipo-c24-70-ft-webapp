@@ -1,10 +1,9 @@
 import HeroBanner from "../../../assets/hero-banner.png";
-import "./Hero.css";
 
 function Hero() {
   return (
     <main
-      className="hero container grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-2"
+      className="hero container grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-2 py-4 sm:py-16 md:py-12"
       id="hero"
     >
       <section className="order-2 md:order-1">

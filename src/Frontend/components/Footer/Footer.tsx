@@ -3,7 +3,7 @@ import { FaGithub, FaPalette } from "react-icons/fa";
 function Footer() {
   return (
     <footer
-      className="footer bg-black text-white flex justify-between items-center py-4 px-12"
+      className="footer bg-black text-center text-white flex justify-between items-center py-4 px-12"
       id="footer"
     >
       <a
