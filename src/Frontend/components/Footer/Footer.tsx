@@ -5,38 +5,14 @@ import {
   FaPhone,
   FaEnvelope,
   FaMapMarker,
-  FaFacebook,
-  FaTwitter,
-  FaInstagram,
 } from "react-icons/fa";
 import "./Footer.css";
-
-const SocialIcons = () => {
-  return (
-    <ul className="social-icons__container flex gap-3">
-      <li>
-        <a href="#" title="Facebook">
-          <FaFacebook />
-        </a>
-      </li>
-      <li>
-        <a href="#" title="Twitter">
-          <FaTwitter />
-        </a>
-      </li>
-      <li>
-        <a href="#" title="Instagram">
-          <FaInstagram />
-        </a>
-      </li>
-    </ul>
-  );
-};
+import SocialIcons from "../SocialIcons/SocialIcons";
 
 function Footer() {
   return (
     <footer className="footer bg-black text-white" id="footer">
-      <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-8 py-20 border-b border-neutral-700 px-6 sm:px-8 lg:px-20">
+      <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-2 py-20 border-b border-neutral-700 px-6 sm:px-8 lg:px-20">
         <article className="xl:col-span-2 flex flex-col gap-4">
           <div className="flex items-center gap-2">
             <img
