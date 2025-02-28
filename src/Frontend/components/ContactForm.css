@@ -1,7 +1,6 @@
 .form {
   border-radius: 1rem;
   background-color: var(--purple-vivid-color);
-  padding: 3rem 6rem;
 }
 
 .form input,

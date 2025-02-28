@@ -2,14 +2,34 @@ import "./ContactForm.css";
 
 export function ContactForm() {
   return (
-    <form method="post" className="form grid grid-cols-2 gap-6 w-5/6 mx-auto">
-      <input className="p-4" type="text" placeholder="Nombre" required />
-      <input className="p-4" type="text" placeholder="Apellido" required />
+    <form
+      method="post"
+      className="form grid grid-cols-1 md:grid-cols-2 gap-6 lg:w-5/6 p-6 lg:py-12 lg:px-28 mx-auto"
+    >
+      <input
+        name="name"
+        id="name"
+        className="p-4"
+        type="text"
+        placeholder="Nombre"
+        required
+        autoComplete="name"
+      />
+      <input
+        name="last-name"
+        id="last-name"
+        className="p-4"
+        type="text"
+        placeholder="Apellido"
+        required
+        autoComplete="family-name"
+      />
       <select
-        className="col-span-2 p-4 hover:cursor-pointer"
+        className="md:col-span-2 p-4 hover:cursor-pointer"
         name="country"
         id="country"
         required
+        autoComplete="country"
       >
         <option value="">Selecciona tu país</option>
         <option value="argentina">Argentina</option>
@@ -35,15 +55,24 @@ export function ContactForm() {
         <option value="otro">Otro</option>
       </select>
       <input
+        name="email"
+        id="email"
         className="p-4"
         type="email"
         placeholder="Correo electrónico"
+        autoComplete="email"
         required
       />
-      <input className="p-4" type="text" placeholder="Número de teléfono" />
+      <input
+        name="phone-number"
+        id="phone-number"
+        className="p-4"
+        type="text"
+        placeholder="Número de teléfono"
+      />
 
       <textarea
-        className="col-span-2 p-4"
+        className="md:col-span-2 p-4"
         placeholder="Mensaje"
         id="message"
         name="message"
@@ -53,7 +82,7 @@ export function ContactForm() {
       <button
         type="submit"
         onClick={(e) => e.preventDefault()}
-        className="col-span-2 btn__primary btn__lime "
+        className="md:col-span-2 btn__primary btn__lime "
       >
         Enviar
       </button>
