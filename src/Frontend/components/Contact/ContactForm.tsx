@@ -4,7 +4,7 @@ export function ContactForm() {
   return (
     <form
       method="post"
-      className="form grid grid-cols-1 md:grid-cols-2 gap-6 lg:w-5/6 p-6 lg:py-12 lg:px-28 mx-auto"
+      className="form grid grid-cols-1 md:grid-cols-2 gap-6 lg:w-5/6 p-6 lg:py-16 lg:px-28 mx-auto"
     >
       <input
         name="name"
@@ -79,11 +79,7 @@ export function ContactForm() {
         required
       />
 
-      <button
-        type="submit"
-        onClick={(e) => e.preventDefault()}
-        className="md:col-span-2 btn__primary btn__lime "
-      >
+      <button type="submit" className="md:col-span-2 btn__primary btn__lime">
         Enviar
       </button>
     </form>

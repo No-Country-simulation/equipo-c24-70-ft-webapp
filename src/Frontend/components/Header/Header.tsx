@@ -13,7 +13,7 @@ function Header() {
         <a href="#" className="flex items-center gap-2 z-10" title="Inicio">
           <img src={LogoIcon} alt="" width={36} />
           <p className="font-normal">
-            Lock<span className="font-[600]">Key</span>
+            Lock<strong>Key</strong>
           </p>
         </a>
 

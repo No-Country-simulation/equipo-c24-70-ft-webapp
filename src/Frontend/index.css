@@ -64,8 +64,18 @@ body {
   border: 1px solid var(--accent-lime-color);
 }
 
+.btn__purple {
+  background-color: var(--purple-vivid-color);
+  border: 1px solid var(--purple-vivid-color);
+}
+
 .btn__primary:hover {
   border: 1px solid var(--background-black);
   color: var(--text-white);
   background-color: var(--background-black);
+}
+
+.btn__purple:hover {
+  color: var(--text-black);
+  background-color: var(--accent-lime-color);
 }
