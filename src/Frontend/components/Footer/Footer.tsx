@@ -13,7 +13,7 @@ import "./Footer.css";
 
 const SocialIcons = () => {
   return (
-    <ul className="flex gap-4">
+    <ul className="social-icons__container flex gap-3">
       <li>
         <a href="#">
           <FaFacebook />
@@ -35,8 +35,8 @@ const SocialIcons = () => {
 
 function Footer() {
   return (
-    <footer className="footer bg-black text-white py-4" id="footer">
-      <section className="grid grid-cols-4 gap-8 mb-5 py-5 border-b border-neutral-700 px-12">
+    <footer className="footer bg-black text-white" id="footer">
+      <section className="grid grid-cols-4 gap-8 py-20 border-b border-neutral-700 px-12">
         <article className="flex flex-col gap-4">
           <div className="flex items-center gap-2">
             <img
@@ -107,7 +107,7 @@ function Footer() {
           </form>
         </article>
       </section>
-      <article className="flex justify-between items-center px-12">
+      <article className="flex justify-between items-center px-12 py-6">
         <a
           className="text-3xl"
           href="https://github.com/No-Country-simulation/equipo-c24-70-ft-webapp"
