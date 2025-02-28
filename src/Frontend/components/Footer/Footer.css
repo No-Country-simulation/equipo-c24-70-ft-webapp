@@ -34,3 +34,12 @@
   color: var(--text-black);
   background-color: var(--accent-lime-color);
 }
+
+.footer__link {
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.footer__link:hover {
+  transform: scale(1.05);
+  color: var(--accent-lime-color);
+}

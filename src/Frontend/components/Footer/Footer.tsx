@@ -15,17 +15,17 @@ const SocialIcons = () => {
   return (
     <ul className="social-icons__container flex gap-3">
       <li>
-        <a href="#">
+        <a href="#" title="Facebook">
           <FaFacebook />
         </a>
       </li>
       <li>
-        <a href="#">
+        <a href="#" title="Twitter">
           <FaTwitter />
         </a>
       </li>
       <li>
-        <a href="#">
+        <a href="#" title="Instagram">
           <FaInstagram />
         </a>
       </li>
@@ -48,7 +48,7 @@ function Footer() {
               Lock<strong>Key</strong>
             </h2>
           </div>
-          <p>
+          <p className="mb-3">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
             eligendi nisi cum enim error nulla laudantium reprehenderit
             cupiditate ipsa voluptas?
@@ -93,15 +93,15 @@ function Footer() {
           <h2 className="footer__title">Newsletter</h2>
           <form className="flex flex-col gap-4" action="">
             <input
+              className="p-4 rounded-md text-black"
               name="email"
               id="email"
-              className="p-4 rounded-md"
               type="email"
               placeholder="Correo electrónico"
               autoComplete="email"
               required
             />
-            <button className="btn__primary btn__footer" type="submit">
+            <button className="btn__primary btn__secondary" type="submit">
               Enviar
             </button>
           </form>
@@ -109,7 +109,7 @@ function Footer() {
       </section>
       <article className="flex justify-between items-center px-12 py-6">
         <a
-          className="text-3xl"
+          className="text-3xl footer__link"
           href="https://github.com/No-Country-simulation/equipo-c24-70-ft-webapp"
           target="_blank"
           rel="noopener noreferrer"
