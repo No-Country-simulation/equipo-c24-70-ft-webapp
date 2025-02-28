@@ -12,8 +12,8 @@ import SocialIcons from "../SocialIcons/SocialIcons";
 function Footer() {
   return (
     <footer className="footer bg-black text-white" id="footer">
-      <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-2 py-20 border-b border-neutral-700 px-6 sm:px-8 lg:px-20">
-        <article className="xl:col-span-2 flex flex-col gap-4">
+      <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-9 gap-y-6 gap-2 xl:gap-6 py-20 border-b border-neutral-700 px-6 sm:px-8 lg:px-20">
+        <article className="xl:col-span-3 flex flex-col gap-4">
           <div className="flex items-center gap-2">
             <img
               src={LogoIcon}
@@ -25,13 +25,13 @@ function Footer() {
             </h2>
           </div>
           <p className="mb-3 text-neutral-400">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-            eligendi nisi cum enim error nulla laudantium reprehenderit
-            cupiditate ipsa voluptas?
+            En un mundo digital en constante cambio, la protección de tus datos
+            es esencial. Usa contraseñas seguras y administra tus accesos con
+            confianza.
           </p>
           <SocialIcons />
         </article>
-        <article>
+        <article className="xl:col-span-2">
           <h2 className="footer__title">Navegación</h2>
           <ul className="footer__list footer__navbar">
             <li>
@@ -48,8 +48,8 @@ function Footer() {
             </li>
           </ul>
         </article>
-        <article>
-          <h2 className="footer__title">Información de Contacto</h2>
+        <article className="xl:col-span-2">
+          <h2 className="footer__title">Datos de Contacto</h2>
           <ul className="footer__list [&>li]:flex [&>li]:gap-3 [&>li]:items-center">
             <li>
               <FaPhone />
@@ -65,7 +65,7 @@ function Footer() {
             </li>
           </ul>
         </article>
-        <article>
+        <article className="xl:col-span-2">
           <h2 className="footer__title">Newsletter</h2>
           <form className="flex flex-col gap-4" action="">
             <input
