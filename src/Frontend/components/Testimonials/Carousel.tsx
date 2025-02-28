@@ -2,6 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import { MdStar } from "react-icons/md";
 import "swiper/swiper-bundle.css";
+import "./Carousel.css";
 import { FC } from "react";
 import { CarouselProps } from "../../Store/types";
 
