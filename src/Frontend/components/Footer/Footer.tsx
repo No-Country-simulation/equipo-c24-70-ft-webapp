@@ -26,8 +26,8 @@ function Footer() {
           </div>
           <p className="mb-3 text-neutral-400">
             En un mundo digital en constante cambio, la protección de tus datos
-            es esencial. Usa contraseñas seguras y administra tus accesos con
-            confianza.
+            es esencial. Somos tu carta del triunfo para gestionar accesos de
+            forma fácil, segura y eficiente.
           </p>
           <SocialIcons />
         </article>

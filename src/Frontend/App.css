@@ -3,9 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Estilos básicos de Swiper */
-/* @import "swiper/swiper-bundle.css"; */
-
 * {
   /* border: 1px solid red; */
 }
