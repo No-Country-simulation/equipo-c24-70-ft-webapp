@@ -1,16 +1,48 @@
 import LogoIcon from "../../../assets/logo-icon.png";
-import { FaGithub, FaPalette } from "react-icons/fa";
+import {
+  FaGithub,
+  FaPalette,
+  FaPhone,
+  FaEnvelope,
+  FaMapMarker,
+  FaFacebook,
+  FaTwitter,
+  FaInstagram,
+} from "react-icons/fa";
+import "./Footer.css";
+
+const SocialIcons = () => {
+  return (
+    <ul className="flex gap-4">
+      <li>
+        <a href="#">
+          <FaFacebook />
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <FaTwitter />
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <FaInstagram />
+        </a>
+      </li>
+    </ul>
+  );
+};
 
 function Footer() {
   return (
     <footer className="footer bg-black text-white py-4" id="footer">
-      <section className="grid grid-cols-4 mb-5 py-5 border-b border-neutral-700 px-12">
+      <section className="grid grid-cols-4 gap-8 mb-5 py-5 border-b border-neutral-700 px-12">
         <article className="flex flex-col gap-4">
           <div className="flex items-center gap-2">
             <img
               src={LogoIcon}
               alt="Logo de LockKey, un candado con una serpiente"
-              width={56}
+              width={52}
             />
             <h2 className="font-normal text-3xl">
               Lock<strong>Key</strong>
@@ -21,10 +53,11 @@ function Footer() {
             eligendi nisi cum enim error nulla laudantium reprehenderit
             cupiditate ipsa voluptas?
           </p>
+          <SocialIcons />
         </article>
         <article>
-          <h2>About Us</h2>
-          <ul>
+          <h2 className="footer__title">Navegación</h2>
+          <ul className="footer__list footer__navbar">
             <li>
               <a href="#">Inicio</a>
             </li>
@@ -40,21 +73,24 @@ function Footer() {
           </ul>
         </article>
         <article>
-          <h2>Contact Info</h2>
-          <ul>
+          <h2 className="footer__title">Información de Contacto</h2>
+          <ul className="footer__list [&>li]:flex [&>li]:gap-2">
             <li>
+              <FaPhone />
               <a href="#">+61 3 8376 6284</a>
             </li>
             <li>
+              <FaEnvelope />
               <a href="#">info@lockkey.com</a>
             </li>
             <li>
+              <FaMapMarker />
               <a href="#">21 King Street Melbourne, 3000, Australia</a>
             </li>
           </ul>
         </article>
         <article>
-          <h2>Sign up for Newsletter</h2>
+          <h2 className="footer__title">Newsletter</h2>
           <form className="flex flex-col gap-4" action="">
             <input
               name="email"
@@ -65,7 +101,7 @@ function Footer() {
               autoComplete="email"
               required
             />
-            <button className="btn__primary btn__purple" type="submit">
+            <button className="btn__primary btn__footer" type="submit">
               Enviar
             </button>
           </form>
