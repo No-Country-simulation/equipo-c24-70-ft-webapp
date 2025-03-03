@@ -6,11 +6,11 @@ import CheckIcon from "../../../components/CheckIcon/CheckIcon";
 function AboutUs() {
   return (
     <section className="container">
-      <article className="grid grid-cols-2 gap-10 items-center py-8">
-        <article className="grid grid-cols-2 gap-8">
+      <article className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center py-8">
+        <article className="grid grid-cols-2 gap-8 mx-auto">
           <img className="col-span-2" src={AboutImg1} alt="" />
-          <img src={AboutImg2} alt="" />
-          <img src={AboutImg3} alt="" />
+          <img className="hidden md:block" src={AboutImg2} alt="" />
+          <img className="hidden md:block" src={AboutImg3} alt="" />
         </article>
         <aside>
           <h1 className="text-lg uppercase mb-2">Sobre Nosotros</h1>
@@ -31,7 +31,7 @@ function AboutUs() {
               seguridad, sino que también simplifica tu vida digital.
             </p>
           </div>
-          <ul className="grid grid-cols-2 [&>li]:flex [&>li]:gap-3 [&>li]:mb-3 text-neutral-600">
+          <ul className="grid grid-cols-1 sm:grid-cols-2 [&>li]:flex [&>li]:gap-3 [&>li]:mb-3 text-neutral-600">
             <li>
               <CheckIcon />
               Generación de Contraseñas

@@ -12,6 +12,7 @@ import WhoWeAre from "./pages/Home/WhoWeAre/WhoWeAre";
 import AboutUs from "./pages/About/AboutUs/AboutUs";
 import OurServices from "./pages/OurServices/OurServices/OurServices";
 import Login from "./pages/Login/Login/Login";
+import OurTeam from "./pages/About/OurTeam/OurTeam";
 
 const Home = () => (
   <>
@@ -24,7 +25,12 @@ const Home = () => (
   </>
 );
 
-const About = () => <AboutUs />;
+const About = () => (
+  <>
+    <AboutUs />
+    <OurTeam />
+  </>
+);
 
 function App() {
   return (
