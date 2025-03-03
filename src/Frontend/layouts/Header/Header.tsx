@@ -20,7 +20,7 @@ function Header() {
 
         <div className="flex items-center gap-2">
           <div className="hidden md:flex">
-            <HeaderNavBar />
+            <HeaderNavBar handleClick={handleClick} />
           </div>
 
           <button
@@ -33,7 +33,7 @@ function Header() {
 
           <Link
             to="/login"
-            className="text-3xl hover:opacity-75"
+            className="text-3xl hover:opacity-75 z-10"
             title="Iniciar Sesión"
           >
             <MdPerson />
@@ -45,7 +45,7 @@ function Header() {
             isMenuOpen ? "active" : ""
           } header__hidden-menu__container md:hidden`}
         >
-          <HeaderNavBar />
+          <HeaderNavBar handleClick={handleClick} />
         </div>
       </div>
     </header>

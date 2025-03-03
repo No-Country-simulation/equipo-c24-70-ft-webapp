@@ -1,3 +1,7 @@
+export interface HeaderNavBarProps {
+  handleClick: () => void;
+}
+
 export interface FeatureCardProps {
   img: string;
   title: string;

@@ -1,25 +1,30 @@
 import { Link } from "react-router-dom";
 import "./HeaderNavBar.css";
+import { FC } from "react";
+import { HeaderNavBarProps } from "../../Store/types";
 
-function HeaderNavBar() {
+const HeaderNavBar: FC<HeaderNavBarProps> = ({ handleClick }) => {
   return (
     <nav className="header__navbar">
       <ul>
-        <li>
+        <li onClick={handleClick}>
           <Link to="/">Inicio</Link>
         </li>
-        <li>
+        <li onClick={handleClick}>
           <Link to="/about">Sobre Nosotros</Link>
         </li>
-        <li>
+        <li onClick={handleClick}>
           <Link to="/services">Servicios</Link>
         </li>
-        <li className="border border-black px-2 py-1 rounded-md hover:bg-black hover:text-white">
+        <li
+          onClick={handleClick}
+          className="border border-black px-2 py-1 rounded-md hover:bg-black hover:text-white"
+        >
           <Link to="/contact">Contacto</Link>
         </li>
       </ul>
     </nav>
   );
-}
+};
 
 export default HeaderNavBar;
