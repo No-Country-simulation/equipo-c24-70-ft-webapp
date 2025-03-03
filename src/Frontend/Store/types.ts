@@ -36,3 +36,7 @@ export interface Testimonial {
 export interface CarouselProps {
   testimonials: Testimonial[];
 }
+
+export interface SocialIconsProps {
+  borderRadius: boolean;
+}
