@@ -1,4 +1,4 @@
-import { useFormInput } from "../../hooks/useFormInput";
+import { useFormInput } from "../../../hooks/useFormInput";
 import "./ContactForm.css";
 
 export function ContactForm() {

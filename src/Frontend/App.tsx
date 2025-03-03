@@ -1,18 +1,18 @@
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
-import Contact from "./components/Contact/Contact";
-import Features from "./components/Features/Features";
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
-import Hero from "./components/Hero/Hero";
-import PricingPlans from "./components/PricingPlans/PricingPlans";
-import Testimonials from "./components/Testimonials/Testimonials";
-import WhatWeDo from "./components/WhatWeDo/WhatWeDo";
-import WhoWeAre from "./components/WhoWeAre/WhoWeAre";
+import Contact from "./pages/Home/Contact/Contact";
+import Features from "./pages/Home/Features/Features";
+import Footer from "./layouts/Footer/Footer";
+import Header from "./layouts/Header/Header";
+import Hero from "./pages/Home/Hero/Hero";
+import PricingPlans from "./pages/Home/PricingPlans/PricingPlans";
+import Testimonials from "./pages/Home/Testimonials/Testimonials";
+import WhatWeDo from "./pages/Home/WhatWeDo/WhatWeDo";
+import WhoWeAre from "./pages/Home/WhoWeAre/WhoWeAre";
 
-function App() {
+const Home = () => {
   return (
     <>
-      <Header />
       <Hero />
       <Features />
       <WhoWeAre />
@@ -20,6 +20,17 @@ function App() {
       <PricingPlans />
       <Testimonials />
       <Contact />
+    </>
+  );
+};
+
+function App() {
+  return (
+    <>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
       <Footer />
     </>
   );

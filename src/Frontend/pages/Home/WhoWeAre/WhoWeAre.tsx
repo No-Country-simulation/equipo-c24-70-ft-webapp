@@ -1,4 +1,4 @@
-import WhoWeAreImg from "../../../assets/who-we-are-banner.png";
+import WhoWeAreImg from "../../../../assets/who-we-are-banner.png";
 import { CounterItem } from "./CounterItem";
 
 function WhoWeAre() {

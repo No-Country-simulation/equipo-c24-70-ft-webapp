@@ -1,5 +1,5 @@
 import { FaCheck } from "react-icons/fa";
-import { PricingCardProps } from "../../Store/types";
+import { PricingCardProps } from "../../../Store/types";
 import { FC } from "react";
 
 import "./PricingCard.css";

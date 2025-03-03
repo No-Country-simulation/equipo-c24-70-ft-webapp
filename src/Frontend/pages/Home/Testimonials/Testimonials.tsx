@@ -1,5 +1,5 @@
-import QuoteImg from "../../../assets/quote-img.png";
-import { testimonials } from "../../mocks/testimonials";
+import QuoteImg from "../../../../assets/quote-img.png";
+import { testimonials } from "../../../mocks/testimonials";
 import { Carousel } from "./Carousel";
 
 function Testimonials() {

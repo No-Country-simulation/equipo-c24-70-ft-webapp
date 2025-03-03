@@ -1,4 +1,4 @@
-import HeroBanner from "../../../assets/hero-banner.png";
+import HeroBanner from "../../../../assets/hero-banner.png";
 
 function Hero() {
   return (

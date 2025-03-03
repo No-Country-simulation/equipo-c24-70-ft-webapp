@@ -1,5 +1,5 @@
 import { FeaturedCard } from "./FeaturedCard";
-import { featuresItems } from "../../mocks/features";
+import { featuresItems } from "../../../mocks/features";
 
 function Features() {
   return (

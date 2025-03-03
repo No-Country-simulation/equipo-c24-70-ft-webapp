@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { FeatureCardProps } from "../../Store/types";
+import { FeatureCardProps } from "../../../Store/types";
 
 export const FeaturedCard: FC<FeatureCardProps> = ({
   img,

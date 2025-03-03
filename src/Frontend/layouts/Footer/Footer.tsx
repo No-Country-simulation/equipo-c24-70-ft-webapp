@@ -7,7 +7,7 @@ import {
   FaMapMarker,
 } from "react-icons/fa";
 import "./Footer.css";
-import SocialIcons from "../SocialIcons/SocialIcons";
+import SocialIcons from "../../components/SocialIcons/SocialIcons";
 
 function Footer() {
   return (
