@@ -13,18 +13,18 @@ import AboutUs from "./pages/About/AboutUs/AboutUs";
 import OurServices from "./pages/OurServices/OurServices/OurServices";
 import Login from "./pages/Login/Login/Login";
 
-const Home = () => {
-  return (
-    <>
-      <Hero />
-      <Features />
-      <WhoWeAre />
-      <WhatWeDo />
-      <PricingPlans />
-      <Testimonials />
-    </>
-  );
-};
+const Home = () => (
+  <>
+    <Hero />
+    <Features />
+    <WhoWeAre />
+    <WhatWeDo />
+    <PricingPlans />
+    <Testimonials />
+  </>
+);
+
+const About = () => <AboutUs />;
 
 function App() {
   return (
@@ -32,7 +32,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<AboutUs />} />
+        <Route path="/about" element={<About />} />
         <Route path="/services" element={<OurServices />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login />} />

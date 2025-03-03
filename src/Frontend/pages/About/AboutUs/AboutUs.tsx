@@ -1,6 +1,7 @@
 import AboutImg1 from "../../../../assets/about-page-img1.png";
 import AboutImg2 from "../../../../assets/about-page-img2.png";
 import AboutImg3 from "../../../../assets/about-page-img3.png";
+import CheckIcon from "../../../components/CheckIcon/CheckIcon";
 
 function AboutUs() {
   return (
@@ -12,24 +13,57 @@ function AboutUs() {
           <img src={AboutImg3} alt="" />
         </article>
         <aside>
-          <h1>About Us</h1>
-          <h2>24/7 Cyber Security Attention Center </h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
-            dolore optio veniam! Animi, id. Facilis dolorum, assumenda commodi
-            soluta nisi, molestiae quidem, nihil aliquam totam perferendis
-            similique molestias dolores. Tenetur dolores ullam maiores qui
-            dolorem quibusdam delectus minus provident temporibus.
-          </p>
-          <ul className="grid grid-cols-2">
-            <li>Malware Detection Removal</li>
-            <li>Content Delivery Network</li>
-            <li>Security Management</li>
-            <li>SIEM Threat Detection</li>
-            <li>Cloud Security</li>
-            <li>Cyber Security</li>
-            <li>Identifying Threats</li>
-            <li>Server Security</li>
+          <h1 className="text-lg uppercase mb-2">Sobre Nosotros</h1>
+          <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold mb-5">
+            Centro de Atención de Seguridad 24/7{" "}
+          </h2>
+          <div className="text-neutral-600 mb-6">
+            <p>
+              En LockKey, nos dedicamos a proporcionar soluciones de gestión de
+              contraseñas que son seguras, fáciles de usar y accesibles desde
+              cualquier lugar. Nuestro objetivo es proteger tu información
+              personal y profesional con la tecnología más avanzada.
+            </p>
+            <p>
+              Con nuestro gestor de contraseñas, puedes generar, almacenar y
+              autocompletar contraseñas seguras para todas tus cuentas en línea.
+              Nos esforzamos por ofrecer un servicio que no solo mejora tu
+              seguridad, sino que también simplifica tu vida digital.
+            </p>
+          </div>
+          <ul className="grid grid-cols-2 [&>li]:flex [&>li]:gap-3 [&>li]:mb-3 text-neutral-600">
+            <li>
+              <CheckIcon />
+              Generación de Contraseñas
+            </li>
+            <li>
+              <CheckIcon />
+              Almacenamiento Encriptado
+            </li>
+            <li>
+              <CheckIcon />
+              Autocompletado de Contraseñas
+            </li>
+            <li>
+              <CheckIcon />
+              Acceso Multiplataforma
+            </li>
+            <li>
+              <CheckIcon />
+              Contraseñas Compartidas
+            </li>
+            <li>
+              <CheckIcon />
+              Autenticación de Dos Factores
+            </li>
+            <li>
+              <CheckIcon />
+              Monitoreo de Seguridad
+            </li>
+            <li>
+              <CheckIcon />
+              Soporte 24/7
+            </li>
           </ul>
         </aside>
       </article>

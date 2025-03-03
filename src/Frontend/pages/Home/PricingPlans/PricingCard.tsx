@@ -1,8 +1,8 @@
-import { FaCheck } from "react-icons/fa";
 import { PricingCardProps } from "../../../Store/types";
 import { FC } from "react";
 
 import "./PricingCard.css";
+import CheckIcon from "../../../components/CheckIcon/CheckIcon";
 
 export const PricingCard: FC<PricingCardProps> = ({
   category,
@@ -28,9 +28,7 @@ export const PricingCard: FC<PricingCardProps> = ({
         <ul className="pricing-card__list font-semibold text-neutral-600 [&>li]:flex [&>li]:items-center [&>li]:gap-2 [&>li]:mb-3">
           {list.map((item: string, index: number) => (
             <li key={index}>
-              <span className="text-black">
-                <FaCheck size={14} />
-              </span>
+              <CheckIcon />
               <p>{item}</p>
             </li>
           ))}

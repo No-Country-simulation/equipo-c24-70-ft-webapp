@@ -29,13 +29,3 @@
   color: var(--text-white);
   background-color: var(--background-black);
 }
-
-.pricing-card__list span {
-  background-color: var(--accent-lime-color);
-  width: 1.5rem;
-  height: 1.5rem;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
