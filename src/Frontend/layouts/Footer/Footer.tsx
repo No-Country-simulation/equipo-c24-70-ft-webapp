@@ -8,6 +8,7 @@ import {
 } from "react-icons/fa";
 import "./Footer.css";
 import SocialIcons from "../../components/SocialIcons/SocialIcons";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -35,16 +36,16 @@ function Footer() {
           <h2 className="footer__title">Navegación</h2>
           <ul className="footer__list footer__navbar">
             <li>
-              <a href="#">Inicio</a>
+              <Link to="/">Inicio</Link>
             </li>
             <li>
-              <a href="#">Sobre Nosotros</a>
+              <Link to="/about">Sobre Nosotros</Link>
             </li>
             <li>
-              <a href="#">Servicios</a>
+              <Link to="/services">Servicios</Link>
             </li>
             <li>
-              <a href="#contact">Contacto</a>
+              <Link to="/contact">Contacto</Link>
             </li>
           </ul>
         </article>

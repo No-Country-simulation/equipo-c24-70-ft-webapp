@@ -3,6 +3,7 @@ import { MdMenu, MdClose, MdPerson } from "react-icons/md";
 import HeaderNavBar from "./HeaderNavBar";
 import "./Header.css";
 import { useNavMenu } from "../../hooks/useNavMenu";
+import { Link } from "react-router-dom";
 
 function Header() {
   const { isMenuOpen, handleClick } = useNavMenu();
@@ -10,12 +11,12 @@ function Header() {
   return (
     <header className="px-4 md:px-10 py-6 text-[20px] font-[600]">
       <div className="flex justify-between items-center">
-        <a href="#" className="flex items-center gap-2 z-10" title="Inicio">
+        <Link to="/" className="flex items-center gap-2 z-10" title="Inicio">
           <img src={LogoIcon} alt="" width={36} />
           <p className="font-normal">
             Lock<strong>Key</strong>
           </p>
-        </a>
+        </Link>
 
         <div className="flex items-center gap-2">
           <div className="hidden md:flex">
@@ -30,9 +31,13 @@ function Header() {
             {isMenuOpen ? <MdClose /> : <MdMenu />}
           </button>
 
-          <button className="text-3xl hover:opacity-75" title="Iniciar Sesión">
+          <Link
+            to="/login"
+            className="text-3xl hover:opacity-75"
+            title="Iniciar Sesión"
+          >
             <MdPerson />
-          </button>
+          </Link>
         </div>
 
         <div

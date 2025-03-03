@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./HeaderNavBar.css";
 
 function HeaderNavBar() {
@@ -5,16 +6,16 @@ function HeaderNavBar() {
     <nav className="header__navbar">
       <ul>
         <li>
-          <a href="#">Inicio</a>
+          <Link to="/">Inicio</Link>
         </li>
         <li>
-          <a href="#">Sobre Nosotros</a>
+          <Link to="/about">Sobre Nosotros</Link>
         </li>
         <li>
-          <a href="#">Servicios</a>
+          <Link to="/services">Servicios</Link>
         </li>
         <li className="border border-black px-2 py-1 rounded-md hover:bg-black hover:text-white">
-          <a href="#contact">Contacto</a>
+          <Link to="/contact">Contacto</Link>
         </li>
       </ul>
     </nav>
