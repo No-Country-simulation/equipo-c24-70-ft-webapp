@@ -1,5 +1,6 @@
 import { FC } from "react";
 import { ServicesCardProps } from "../../../Store/types";
+import "./ServicesCard.css";
 
 export const ServicesCard: FC<ServicesCardProps> = ({
   title,
@@ -7,7 +8,7 @@ export const ServicesCard: FC<ServicesCardProps> = ({
   paragraph,
 }) => {
   return (
-    <article className="pricing-card__container rounded-lg py-8 px-8 xl:px-12">
+    <article className="services-card__container rounded-lg py-8 px-8 xl:px-12">
       <figure className="flex justify-center mb-4">
         <img src={img} alt="" />
       </figure>
