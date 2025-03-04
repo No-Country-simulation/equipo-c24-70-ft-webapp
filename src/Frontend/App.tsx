@@ -13,6 +13,7 @@ import AboutUs from "./pages/About/AboutUs/AboutUs";
 import OurServices from "./pages/OurServices/OurServices/OurServices";
 import Login from "./pages/Login/Login/Login";
 import OurTeam from "./pages/About/OurTeam/OurTeam";
+import FAQs from "./pages/OurServices/FAQs/FAQs";
 
 const Home = () => (
   <>
@@ -32,6 +33,13 @@ const About = () => (
   </>
 );
 
+const Services = () => (
+  <>
+    <OurServices />
+    <FAQs />
+  </>
+);
+
 function App() {
   return (
     <>
@@ -39,7 +47,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/services" element={<OurServices />} />
+        <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login />} />
       </Routes>

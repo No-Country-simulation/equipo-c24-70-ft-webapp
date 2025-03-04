@@ -40,3 +40,9 @@ export interface CarouselProps {
 export interface SocialIconsProps {
   borderRadius: boolean;
 }
+
+export interface ServicesCardProps {
+  title: string;
+  img: string;
+  paragraph: string;
+}
