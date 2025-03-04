@@ -60,22 +60,28 @@ function WhyChooseUs() {
           <figure className="row-start-3 row-span-2 rounded-xl overflow-hidden">
             <img
               className="w-full h-full object-cover"
-              src={AboutImg2}
-              alt=""
+              src={AboutImg1}
+              alt="Una mujer vestida de traje sosteniendo una Notebook."
+              width={145}
+              height={135}
             />
           </figure>
           <figure className="col-span-2 row-span-4 rounded-xl overflow-hidden">
             <img
               className="w-full h-full object-cover"
-              src={AboutImg1}
-              alt=""
+              src={AboutImg2}
+              alt="Un hombre sentado en una silla escribiendo en un teclado mirando un monitor de computadora."
+              width={365}
+              height={335}
             />
           </figure>
           <figure className="col-span-2 row-span-3  rounded-xl overflow-hidden">
             <img
               className="w-full h-full object-cover"
               src={AboutImg3}
-              alt=""
+              alt="Un hombre y una mujer, en una oficina, mirando un monitor de computadora"
+              width={407}
+              height={251}
             />
           </figure>
         </aside>

@@ -43,7 +43,13 @@ const TeamCard: FC<TeamCardProps> = ({ img, name, occupation }) => {
     <article className="text-center">
       <header className="relative mb-8">
         <figure className="rounded-lg overflow-hidden">
-          <img className="w-full object-cover" src={img} alt="" />
+          <img
+            className="w-full object-cover"
+            src={img}
+            alt={`${name}, ${occupation}.`}
+            width={472}
+            height={440}
+          />
         </figure>
         <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2">
           <SocialIcons borderRadius={true} />

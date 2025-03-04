@@ -1,6 +1,6 @@
-import AboutImg1 from "../../../../assets/about-page-img1.png";
-import AboutImg2 from "../../../../assets/about-page-img2.png";
-import AboutImg3 from "../../../../assets/about-page-img3.png";
+import AboutImg1 from "../../../../assets/about-page-img1.jpg";
+import AboutImg2 from "../../../../assets/about-page-img2.jpg";
+import AboutImg3 from "../../../../assets/about-page-img3.jpg";
 import CheckIcon from "../../../components/CheckIcon/CheckIcon";
 
 function AboutUs() {
@@ -8,9 +8,27 @@ function AboutUs() {
     <section className="container">
       <article className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center py-8">
         <article className="grid grid-cols-2 gap-8 mx-auto">
-          <img className="col-span-2" src={AboutImg1} alt="" />
-          <img className="hidden md:block" src={AboutImg2} alt="" />
-          <img className="hidden md:block" src={AboutImg3} alt="" />
+          <img
+            className="col-span-2 rounded-xl overflow-hidden"
+            src={AboutImg1}
+            alt="Una mujer sosteniendo un celular frente a una notebook."
+            width={540}
+            height={335}
+          />
+          <img
+            className="hidden md:block rounded-xl overflow-hidden"
+            src={AboutImg2}
+            alt="Una mujer vestida de traje sosteniendo un celular que le ilumina la cara."
+            width={255}
+            height={251}
+          />
+          <img
+            className="hidden md:block rounded-xl overflow-hidden"
+            src={AboutImg3}
+            alt="Una chica con una campera con la capucha puesta, sosteniendo una notebook."
+            width={255}
+            height={251}
+          />
         </article>
         <aside>
           <h1 className="text-lg uppercase mb-2">Sobre Nosotros</h1>
