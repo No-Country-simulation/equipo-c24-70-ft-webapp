@@ -5,8 +5,8 @@ import { SocialIconsProps } from "../../Store/types";
 
 const SocialIcons: FC<SocialIconsProps> = ({ borderRadius }) => {
   const border = borderRadius
-    ? "rounded-full bg-cyan-200"
-    : "rounded-md bg-white/30";
+    ? "rounded-full bg-cyan-200 text-lg p-3"
+    : "rounded-md bg-white/30 text-xl p-4";
 
   return (
     <ul className="social-icons__container flex gap-3">
