@@ -17,9 +17,11 @@ function Footer() {
         <article className="xl:col-span-3 flex flex-col gap-4">
           <div className="flex items-center gap-2">
             <img
+              className="max-w-12"
               src={LogoIcon}
-              alt="Logo de LockKey, un candado con una serpiente"
-              width={52}
+              alt="Logo de LockKey, un candado con una serpiente."
+              width={500}
+              height={500}
             />
             <h2 className="font-normal text-3xl">
               Lock<strong>Key</strong>
@@ -30,7 +32,7 @@ function Footer() {
             es esencial. Somos tu carta del triunfo para gestionar accesos de
             forma fácil, segura y eficiente.
           </p>
-          <SocialIcons />
+          <SocialIcons borderRadius={false} />
         </article>
         <article className="xl:col-span-2">
           <h2 className="footer__title">Navegación</h2>

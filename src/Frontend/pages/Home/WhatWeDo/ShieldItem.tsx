@@ -16,7 +16,7 @@ export const ShieldItem: FC<ShieldItemProps> = ({ title, text }) => {
       </figure>
       <div>
         <h3 className="font-bold text-xl mb-1">{title}</h3>
-        <p className="xl:text-[15px] text-neutral-500 font-semibold max-w-96">
+        <p className="xl:text-[15px] text-neutral-600 font-semibold max-w-96">
           {text}
         </p>
       </div>

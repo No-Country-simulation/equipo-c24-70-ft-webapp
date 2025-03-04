@@ -8,7 +8,13 @@ function WhatWeDo() {
       id="what-we-do"
     >
       <figure className="w-2/3 md:max-w-72 xl:max-w-96 mx-auto lg:col-span-2">
-        <img className="w-full object-cover" src={WhatWeDoImg} alt="" />
+        <img
+          className="w-full object-cover"
+          src={WhatWeDoImg}
+          alt="Icono de un mundo con líneas de conexión que salen de él."
+          width={507}
+          height={596}
+        />
       </figure>
       <article className="text-center md:text-left lg:col-span-3">
         <p className="text-lg uppercase mb-2">Nuestra misión</p>

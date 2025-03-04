@@ -37,7 +37,9 @@ export const Carousel: FC<CarouselProps> = ({ testimonials }) => {
               <img
                 className="w-full object-cover"
                 src={testimonial.img}
-                alt={`Imagén de ${testimonial.name}`}
+                alt={`Imagen de ${testimonial.name}`}
+                width={370}
+                height={370}
               />
             </figure>
             <div>
