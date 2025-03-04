@@ -17,8 +17,8 @@ function AboutUs() {
           <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold mb-5">
             Centro de Atención de Seguridad 24/7{" "}
           </h2>
-          <div className="text-neutral-600 mb-6">
-            <p>
+          <div className="text-lg text-neutral-600 mb-6">
+            <p className="mb-2">
               En LockKey, nos dedicamos a proporcionar soluciones de gestión de
               contraseñas que son seguras, fáciles de usar y accesibles desde
               cualquier lugar. Nuestro objetivo es proteger tu información

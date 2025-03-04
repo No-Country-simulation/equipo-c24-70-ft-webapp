@@ -14,6 +14,7 @@ import OurServices from "./pages/OurServices/OurServices/OurServices";
 import Login from "./pages/Login/Login/Login";
 import OurTeam from "./pages/About/OurTeam/OurTeam";
 import FAQs from "./pages/OurServices/FAQs/FAQs";
+import WhyChooseUs from "./pages/Contact/WhyChooseUs/WhyChooseUs";
 
 const Home = () => (
   <>
@@ -40,6 +41,13 @@ const Services = () => (
   </>
 );
 
+const ContactPage = () => (
+  <>
+    <WhyChooseUs />
+    <Contact />
+  </>
+);
+
 function App() {
   return (
     <>
@@ -48,7 +56,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/contact" element={<ContactPage />} />
         <Route path="/login" element={<Login />} />
       </Routes>
       <Footer />
