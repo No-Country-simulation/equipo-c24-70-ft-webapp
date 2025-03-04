@@ -5,7 +5,7 @@ import AboutImg3 from "../../../../assets/why-choose-us-img3.png";
 
 function WhyChooseUs() {
   return (
-    <section className="container">
+    <section className="container" id="why-choose-us">
       <article className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center py-8">
         <article>
           <h1 className="text-lg uppercase mb-2">Por qué elegirnos</h1>
@@ -56,15 +56,11 @@ function WhyChooseUs() {
             </li>
           </ul>
         </article>
-        <aside className="max-h-[34rem] grid grid-cols-3 grid-rows-3 gap-6 mx-auto">
-          <figure className="row-start-2 rounded-xl overflow-hidden">
-            <img
-              className="w-full h-full object-cover"
-              src={AboutImg2}
-              alt=""
-            />
+        <aside className="max-h-[34rem] grid grid-cols-3 grid-rows-5 gap-6 mx-auto">
+          <figure className="row-start-2 row-span-2 flex items-end rounded-xl overflow-hidden">
+            <img className="w-full object-cover" src={AboutImg2} alt="" />
           </figure>
-          <figure className="col-span-2 row-span-2 rounded-xl overflow-hidden">
+          <figure className="col-span-2 row-span-3 rounded-xl overflow-hidden">
             <img className="h-full object-cover" src={AboutImg1} alt="" />
           </figure>
           <figure className="col-span-2 row-span-2  rounded-xl overflow-hidden">
