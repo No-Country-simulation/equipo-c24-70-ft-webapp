@@ -63,7 +63,7 @@ function FAQs() {
                 </div>
               ))}
           </div>
-          <div className="w-full md:w-1/2 px-2 ">
+          <div className="w-full md:w-1/2 px-2">
             {accordionData
               .slice(Math.ceil(accordionData.length / 2))
               .map((item) => (
