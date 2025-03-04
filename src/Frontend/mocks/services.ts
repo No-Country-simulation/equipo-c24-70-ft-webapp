@@ -8,7 +8,7 @@ export const services = [
   },
   {
     id: 2,
-    img: "../../../src/assets/whychoseus-img2.png",
+    img: "../../../src/assets/whychoseus-img1.png",
     title: "Alerta de Filtraciones",
     paragraph:
       "Recibe notificaciones si alguna de tus contraseñas ha sido comprometida y actualízala de inmediato.",

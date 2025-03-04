@@ -8,8 +8,8 @@ export const FeaturedCard: FC<FeatureCardProps> = ({
 }) => {
   return (
     <article className="w-11/12 mx-auto md:w-auto">
-      <figure className="flex justify-center mb-4">
-        <img className="w-full max-w-28" src={img} alt="" />
+      <figure className="max-w-36 mb-4 mx-auto">
+        <img className="w-full object-cover" src={img} alt="" />
       </figure>
       <h3 className="text-2xl font-semibold mb-4">{title}</h3>
       <p className="text-lg">{paragraph}</p>

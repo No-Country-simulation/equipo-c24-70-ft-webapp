@@ -1,7 +1,7 @@
 import CheckIcon from "../../../components/CheckIcon/CheckIcon";
-import AboutImg1 from "../../../../assets/why-choose-us-img1.png";
-import AboutImg2 from "../../../../assets/why-choose-us-img2.png";
-import AboutImg3 from "../../../../assets/why-choose-us-img3.png";
+import AboutImg1 from "../../../../assets/why-choose-us-img1.jpg";
+import AboutImg2 from "../../../../assets/why-choose-us-img2.jpg";
+import AboutImg3 from "../../../../assets/why-choose-us-img3.jpg";
 
 function WhyChooseUs() {
   return (
@@ -56,14 +56,22 @@ function WhyChooseUs() {
             </li>
           </ul>
         </article>
-        <aside className="max-h-[34rem] grid grid-cols-3 grid-rows-5 gap-6 mx-auto">
-          <figure className="row-start-2 row-span-2 flex items-end rounded-xl overflow-hidden">
-            <img className="w-full object-cover" src={AboutImg2} alt="" />
+        <aside className=" grid grid-cols-3 grid-rows-7 gap-6 mx-auto">
+          <figure className="row-start-3 row-span-2 rounded-xl overflow-hidden">
+            <img
+              className="w-full h-full object-cover"
+              src={AboutImg2}
+              alt=""
+            />
           </figure>
-          <figure className="col-span-2 row-span-3 rounded-xl overflow-hidden">
-            <img className="h-full object-cover" src={AboutImg1} alt="" />
+          <figure className="col-span-2 row-span-4 rounded-xl overflow-hidden">
+            <img
+              className="w-full h-full object-cover"
+              src={AboutImg1}
+              alt=""
+            />
           </figure>
-          <figure className="col-span-2 row-span-2  rounded-xl overflow-hidden">
+          <figure className="col-span-2 row-span-3  rounded-xl overflow-hidden">
             <img
               className="w-full h-full object-cover"
               src={AboutImg3}

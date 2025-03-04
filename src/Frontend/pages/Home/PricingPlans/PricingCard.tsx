@@ -17,8 +17,8 @@ export const PricingCard: FC<PricingCardProps> = ({
       title="Ver detalles del plan"
     >
       <span className="pricing-card__category">{category}</span>
-      <figure className="flex justify-center mb-4">
-        <img src={img} alt="" />
+      <figure className="max-w-40 flex justify-center mx-auto mb-4">
+        <img className="w-full object-cover" src={img} alt="" />
       </figure>
       <div className="mb-4">
         <strong className="text-5xl">${price}</strong>

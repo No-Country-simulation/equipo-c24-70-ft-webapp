@@ -2,7 +2,7 @@ export const pricingCardData = [
   {
     id: 1,
     category: "Personal",
-    img: "../../../src/assets/pricing-plan-icon1.png",
+    img: "../../../src/assets/plan-personal.png",
     price: 120,
     list: [
       "10 días de prueba",
@@ -14,7 +14,7 @@ export const pricingCardData = [
   {
     id: 2,
     category: "Business",
-    img: "../../../src/assets/pricing-plan-icon2.png",
+    img: "../../../src/assets/plan-business.png",
     price: 180,
     list: [
       "1GB de almacenamiento",
@@ -26,7 +26,7 @@ export const pricingCardData = [
   {
     id: 3,
     category: "Premium",
-    img: "../../../src/assets/pricing-plan-icon3.png",
+    img: "../../../src/assets/plan-premium.png",
     price: 200,
     list: [
       "Sin límite de contraseñas",
