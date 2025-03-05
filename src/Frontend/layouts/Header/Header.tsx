@@ -1,4 +1,4 @@
-import LogoIcon from "../../../assets/lockkey-logo.png";
+import LogoIcon from "../../../assets/lockkey-logo.avif";
 import { MdMenu, MdClose, MdPerson } from "react-icons/md";
 import HeaderNavBar from "./HeaderNavBar";
 import "./Header.css";

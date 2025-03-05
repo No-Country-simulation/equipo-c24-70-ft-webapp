@@ -1,4 +1,4 @@
-import LogoIcon from "../../../assets/logo-icon.png";
+import LogoIcon from "../../../assets/logo-icon.avif";
 import { FaGithub, FaPhone, FaEnvelope, FaMapMarker } from "react-icons/fa";
 import "./Footer.css";
 import SocialIcons from "../../components/SocialIcons/SocialIcons";

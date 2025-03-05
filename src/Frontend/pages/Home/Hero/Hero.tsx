@@ -1,6 +1,6 @@
-import HeroBanner from "../../../../assets/hero-banner.png";
-import CircleImg from "../../../../assets/circle-background-img.png";
-import GradientImg from "../../../../assets/gradient-background-img.png";
+import HeroBanner from "../../../../assets/hero-banner.avif";
+import CircleImg from "../../../../assets/circle-background-img.avif";
+import GradientImg from "../../../../assets/gradient-background-img.avif";
 import { Link } from "react-router-dom";
 
 function Hero() {

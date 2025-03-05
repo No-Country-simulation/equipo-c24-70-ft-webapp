@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import TalkBannerImg from "../../../../assets/talk-banner.png";
+import TalkBannerImg from "../../../../assets/talk-banner.avif";
 
 function TalkBanner() {
   return (

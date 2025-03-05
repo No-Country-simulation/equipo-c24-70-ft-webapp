@@ -1,4 +1,4 @@
-import WhatWeDoImg from "../../../../assets/what-we-do-banner.png";
+import WhatWeDoImg from "../../../../assets/what-we-do-banner.avif";
 import { ShieldItem } from "./ShieldItem";
 
 function WhatWeDo() {

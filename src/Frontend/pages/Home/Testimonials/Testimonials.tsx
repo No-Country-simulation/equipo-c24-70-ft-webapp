@@ -1,4 +1,4 @@
-import QuoteImg from "../../../../assets/quote-img.png";
+import QuoteImg from "../../../../assets/quote-img.avif";
 import { testimonials } from "../../../mocks/testimonials";
 import { Carousel } from "./Carousel";
 

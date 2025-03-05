@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { ShieldItemProps } from "../../../Store/types";
-import ShieldIcon from "../../../../assets/shield-icon.png";
+import ShieldIcon from "../../../../assets/shield-icon.avif";
 
 export const ShieldItem: FC<ShieldItemProps> = ({ title, text }) => {
   return (
