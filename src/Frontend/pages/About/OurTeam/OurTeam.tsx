@@ -49,6 +49,7 @@ const TeamCard: FC<TeamCardProps> = ({ img, name, occupation }) => {
             alt={`${name}, ${occupation}.`}
             width={472}
             height={440}
+            loading="lazy"
           />
         </figure>
         <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2">

@@ -33,6 +33,7 @@ function WhoWeAre() {
           alt="Un icono de una persona con gafas y sombrero, frente a una notebook."
           width={564}
           height={631}
+          loading="lazy"
         />
       </figure>
     </section>

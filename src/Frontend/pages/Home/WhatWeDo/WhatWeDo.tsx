@@ -14,6 +14,7 @@ function WhatWeDo() {
           alt="Icono de un mundo con líneas de conexión que salen de él."
           width={507}
           height={596}
+          loading="lazy"
         />
       </figure>
       <article className="text-center md:text-left lg:col-span-3">

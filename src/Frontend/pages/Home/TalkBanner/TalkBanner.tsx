@@ -18,6 +18,7 @@ function TalkBanner() {
           alt="Fondo de imagen, puntos dispersos en líneas onduladas."
           width={1110}
           height={324}
+          loading="lazy"
         />
       </article>
     </section>

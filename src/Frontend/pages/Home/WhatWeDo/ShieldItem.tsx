@@ -12,6 +12,7 @@ export const ShieldItem: FC<ShieldItemProps> = ({ title, text }) => {
           alt="Icono de un escudo"
           width={51}
           height={59}
+          loading="lazy"
         />
       </figure>
       <div>

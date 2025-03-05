@@ -1,6 +1,6 @@
 import HeroBanner from "../../../../assets/hero-banner.png";
 import CircleImg from "../../../../assets/circle-background-img.png";
-import GradientImg from "../../../../assets/gradient-background-img2.png";
+import GradientImg from "../../../../assets/gradient-background-img.png";
 
 function Hero() {
   return (

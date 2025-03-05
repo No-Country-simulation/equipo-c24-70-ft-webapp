@@ -40,6 +40,7 @@ export const Carousel: FC<CarouselProps> = ({ testimonials }) => {
                 alt={`Imagen de ${testimonial.name}`}
                 width={370}
                 height={370}
+                loading="lazy"
               />
             </figure>
             <div>

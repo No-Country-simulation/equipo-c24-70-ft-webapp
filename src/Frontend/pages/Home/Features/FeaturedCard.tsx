@@ -15,6 +15,7 @@ export const FeaturedCard: FC<FeatureCardProps> = ({
           alt={`Icono que alude a ${title}`}
           width={155}
           height={155}
+          loading="lazy"
         />
       </figure>
       <h3 className="text-2xl font-semibold mb-4">{title}</h3>

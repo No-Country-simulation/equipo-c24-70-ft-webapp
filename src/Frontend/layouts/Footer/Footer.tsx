@@ -22,6 +22,7 @@ function Footer() {
               alt="Logo de LockKey, un candado con una serpiente."
               width={200}
               height={200}
+              loading="lazy"
             />
             <h2 className="font-normal text-3xl">
               Lock<strong>Key</strong>
@@ -106,15 +107,7 @@ function Footer() {
           </a>
           .
         </p>
-        <a
-          className="text-3xl"
-          href="https://www.formfrom.design/illustration-pack/moneyfly"
-          target="_blank"
-          rel="noopener noreferrer"
-          title="Paleta de colores"
-        >
-          <FaPalette />
-        </a>
+        <span className="w-8"></span>
       </article>
     </footer>
   );

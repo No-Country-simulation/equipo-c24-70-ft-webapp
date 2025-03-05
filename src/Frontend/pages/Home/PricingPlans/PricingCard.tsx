@@ -24,6 +24,7 @@ export const PricingCard: FC<PricingCardProps> = ({
           alt={`Imagen que representa el valor de el plan ${category} metaforicamente.`}
           width={390}
           height={390}
+          loading="lazy"
         />
       </figure>
       <div className="mb-4">

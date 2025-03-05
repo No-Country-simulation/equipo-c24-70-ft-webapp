@@ -20,6 +20,7 @@ function Testimonials() {
         alt="Signo de comillas"
         width={305}
         height={227}
+        loading="lazy"
       />
     </section>
   );
