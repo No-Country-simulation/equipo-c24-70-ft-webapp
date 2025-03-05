@@ -1,3 +1,8 @@
+.header {
+  box-shadow: 0 8px 16px rgba(136, 146, 176, 0.8);
+  background-color: var(--background-white);
+}
+
 .header__hidden-menu__container {
   position: absolute;
   top: 0;

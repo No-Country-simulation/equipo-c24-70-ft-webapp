@@ -1,9 +1,11 @@
 import HeroBanner from "../../../../assets/hero-banner.png";
+import CircleImg from "../../../../assets/circle-background-img.png";
+import GradientImg from "../../../../assets/gradient-background-img2.png";
 
 function Hero() {
   return (
     <main
-      className="hero container grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-2 py-4 sm:py-16 md:py-12"
+      className="hero relative container grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-2 py-4 sm:py-12 md:py-6"
       id="hero"
     >
       <section className="order-2 md:order-1">
@@ -34,6 +36,20 @@ function Hero() {
           height={565}
         />
       </figure>
+      <img
+        className="absolute z-[-1] w-72 -top-40 -left-56 opacity-10 transform rotate-180"
+        src={CircleImg}
+        alt="Línea circular formando un anillo."
+        width={445}
+        height={405}
+      />
+      <img
+        className="absolute z-[-1] -right-96 opacity-60"
+        src={GradientImg}
+        alt="Fondo gradiente de puntos formando ondulaciones."
+        width={1689}
+        height={1263}
+      />
     </main>
   );
 }

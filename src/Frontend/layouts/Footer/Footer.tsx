@@ -20,8 +20,8 @@ function Footer() {
               className="max-w-12"
               src={LogoIcon}
               alt="Logo de LockKey, un candado con una serpiente."
-              width={500}
-              height={500}
+              width={200}
+              height={200}
             />
             <h2 className="font-normal text-3xl">
               Lock<strong>Key</strong>
