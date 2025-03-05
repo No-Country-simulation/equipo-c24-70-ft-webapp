@@ -32,6 +32,11 @@ body {
   font-family: var(--primary-font-family);
 }
 
+.no-scroll {
+  height: 100vh;
+  overflow: hidden;
+}
+
 .container {
   max-width: 1200px;
   width: 88% !important;

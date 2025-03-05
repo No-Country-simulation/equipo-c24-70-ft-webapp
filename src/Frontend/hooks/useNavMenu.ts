@@ -5,6 +5,11 @@ export function useNavMenu() {
 
   const handleClick = () => {
     setIsMenuOpen(!isMenuOpen);
+    if (!isMenuOpen) {
+      document.body.classList.add("no-scroll");
+    } else {
+      document.body.classList.remove("no-scroll");
+    }
   };
 
   useEffect(() => {
