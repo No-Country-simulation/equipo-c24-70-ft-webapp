@@ -1,6 +1,6 @@
-import AboutImg1 from "../../../../assets/about-page-img1.jpg";
-import AboutImg2 from "../../../../assets/about-page-img2.jpg";
-import AboutImg3 from "../../../../assets/about-page-img3.jpg";
+import AboutImg1 from "../../../../assets/about-page-img1.webp";
+import AboutImg2 from "../../../../assets/about-page-img2.webp";
+import AboutImg3 from "../../../../assets/about-page-img3.webp";
 import CheckIcon from "../../../components/CheckIcon/CheckIcon";
 
 function AboutUs() {
