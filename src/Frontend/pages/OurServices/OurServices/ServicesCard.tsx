@@ -8,7 +8,7 @@ export const ServicesCard: FC<ServicesCardProps> = ({
   paragraph,
 }) => {
   return (
-    <article className="services-card__container rounded-lg py-8 px-8 xl:px-12">
+    <article className="box-shadow__item services-card__container rounded-lg py-8 px-8 xl:px-12">
       <figure className="max-w-36 mx-auto my-8">
         <img
           className="w-full object-cover"

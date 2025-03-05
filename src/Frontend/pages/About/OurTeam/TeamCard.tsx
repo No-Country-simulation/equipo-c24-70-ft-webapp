@@ -5,7 +5,7 @@ import SocialIcons from "../../../components/SocialIcons/SocialIcons";
 export const TeamCard: FC<TeamCardProps> = ({ img, name, occupation }) => {
   return (
     <article className="text-center">
-      <header className="relative mb-8">
+      <header className="box-shadow__item relative mb-8 rounded-lg">
         <figure className="rounded-lg overflow-hidden">
           <img
             className="w-full object-cover"
