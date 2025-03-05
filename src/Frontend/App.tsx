@@ -15,6 +15,7 @@ import Login from "./pages/Login/Login/Login";
 import OurTeam from "./pages/About/OurTeam/OurTeam";
 import FAQs from "./pages/OurServices/FAQs/FAQs";
 import WhyChooseUs from "./pages/Contact/WhyChooseUs/WhyChooseUs";
+import TalkBanner from "./pages/Home/TalkBanner/TalkBanner";
 
 const Home = () => (
   <>
@@ -24,6 +25,7 @@ const Home = () => (
     <WhatWeDo />
     <PricingPlans />
     <Testimonials />
+    <TalkBanner />
   </>
 );
 

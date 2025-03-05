@@ -1,5 +1,5 @@
 import { FC } from "react";
-import TeamImg1 from "../../../../assets/teams-img1.png";
+import TeamImg1 from "../../../../assets/nataly-castaneda.jpg";
 import TeamImg2 from "../../../../assets/alexander-castillo.jpg";
 import TeamImg3 from "../../../../assets/emmanuel-cruz.jpg";
 import TeamImg4 from "../../../../assets/antonella-heimen.jpg";
