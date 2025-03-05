@@ -16,6 +16,7 @@ import OurTeam from "./pages/About/OurTeam/OurTeam";
 import FAQs from "./pages/OurServices/FAQs/FAQs";
 import WhyChooseUs from "./pages/Contact/WhyChooseUs/WhyChooseUs";
 import TalkBanner from "./pages/Home/TalkBanner/TalkBanner";
+import ScrollToTopButton from "./components/ScrollToTopButton/ScrollToTopButton";
 
 const Home = () => (
   <>
@@ -61,6 +62,7 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/login" element={<Login />} />
       </Routes>
+      <ScrollToTopButton />
       <Footer />
     </>
   );

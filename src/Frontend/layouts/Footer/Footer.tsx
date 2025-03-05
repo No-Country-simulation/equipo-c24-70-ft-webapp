@@ -1,11 +1,5 @@
 import LogoIcon from "../../../assets/logo-icon.png";
-import {
-  FaGithub,
-  FaPalette,
-  FaPhone,
-  FaEnvelope,
-  FaMapMarker,
-} from "react-icons/fa";
+import { FaGithub, FaPhone, FaEnvelope, FaMapMarker } from "react-icons/fa";
 import "./Footer.css";
 import SocialIcons from "../../components/SocialIcons/SocialIcons";
 import { Link } from "react-router-dom";
@@ -87,9 +81,9 @@ function Footer() {
           </form>
         </article>
       </section>
-      <article className="flex justify-between items-center px-6 lg:px-20 py-6">
+      <article className="flex justify-between items-center px-6 py-6">
         <a
-          className="text-3xl footer__link"
+          className="text-4xl footer__link"
           href="https://github.com/No-Country-simulation/equipo-c24-70-ft-webapp"
           target="_blank"
           rel="noopener noreferrer"
