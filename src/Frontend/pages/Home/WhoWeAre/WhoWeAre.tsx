@@ -28,7 +28,7 @@ function WhoWeAre() {
       </article>
       <figure className="order-1 md:order-2 w-2/3 md:w-96 mx-auto">
         <img
-          className="w-full object-cover"
+          className="w-full object-cover custom-drop-shadow"
           src={WhoWeAreImg}
           alt="Un icono de una persona con gafas y sombrero, frente a una notebook."
           width={564}

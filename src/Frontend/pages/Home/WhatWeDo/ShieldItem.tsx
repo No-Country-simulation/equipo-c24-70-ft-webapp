@@ -7,7 +7,7 @@ export const ShieldItem: FC<ShieldItemProps> = ({ title, text }) => {
     <div className="flex flex-col md:flex-row items-center gap-4">
       <figure className="w-14 md:w-20 lg:w-24 flex justify-center">
         <img
-          className="object-cover w-full"
+          className="object-cover w-full custom-drop-shadow"
           src={ShieldIcon}
           alt="Icono de un escudo"
           width={51}

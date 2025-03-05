@@ -9,7 +9,7 @@ function WhatWeDo() {
     >
       <figure className="w-2/3 md:max-w-72 xl:max-w-96 mx-auto lg:col-span-2">
         <img
-          className="w-full object-cover"
+          className="w-full object-cover custom-drop-shadow"
           src={WhatWeDoImg}
           alt="Icono de un mundo con líneas de conexión que salen de él."
           width={507}

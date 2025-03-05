@@ -11,7 +11,7 @@ export const ServicesCard: FC<ServicesCardProps> = ({
     <article className="box-shadow__item services-card__container rounded-lg py-8 px-8 xl:px-12">
       <figure className="max-w-36 mx-auto my-8">
         <img
-          className="w-full object-cover"
+          className="w-full object-cover custom-drop-shadow"
           src={img}
           alt={`Imagen que alude a ${title}`}
           width={155}

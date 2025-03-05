@@ -29,7 +29,7 @@ function Hero() {
       </section>
       <figure className="order-1 md:order-2 w-2/3 md:w-96 mx-auto">
         <img
-          className="w-full object-cover"
+          className="w-full object-cover custom-drop-shadow"
           src={HeroBanner}
           alt="Icono de una pantalla con un escudo delante, el escudo tiene un simbolo de check en el centro."
           width={601}

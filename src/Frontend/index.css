@@ -54,9 +54,13 @@ body {
   background-color: var(--purple-vivid-color);
 }
 
-.box-shadow__item{
+.box-shadow__item {
   box-shadow: 8px 8px 16px rgba(136, 146, 176, 0.8),
     -8px -8px 16px rgba(255, 255, 255, 0.9);
+}
+
+.custom-drop-shadow {
+  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.35));
 }
 
 .btn__primary {

@@ -8,7 +8,10 @@ function TalkBanner() {
         <h2 className="text-center text-3xl lg:text-5xl text-white font-bold w-5/6 mb-6 z-10">
           Administra y protege tus contraseñas de forma sencilla y segura.
         </h2>
-        <Link to="/login" className="btn__primary btn__lime z-10">
+        <Link
+          to="/login"
+          className="btn__primary btn__lime shadow-lg shadow-black/30 z-10"
+        >
           Empezar ahora
         </Link>
         <img

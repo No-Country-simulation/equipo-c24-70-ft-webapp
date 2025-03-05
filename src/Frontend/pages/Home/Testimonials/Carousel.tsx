@@ -33,9 +33,9 @@ export const Carousel: FC<CarouselProps> = ({ testimonials }) => {
             <p className="md:text-2xl font-semibold w-5/6 mx-auto mb-4">
               "{testimonial.review}"
             </p>
-            <figure className="max-w-20 rounded-full overflow-hidden mx-auto mb-4">
+            <figure className="max-w-20 shadow-lg shadow-black/30 rounded-full overflow-hidden mx-auto mb-4">
               <img
-                className="w-full object-cover"
+                className="w-full h-full object-cover"
                 src={testimonial.img}
                 alt={`Imagen de ${testimonial.name}`}
                 width={370}
