@@ -16,6 +16,7 @@ export function useNavMenu() {
     const handleResize = () => {
       if (window.innerWidth > 768) {
         setIsMenuOpen(false);
+        document.body.classList.remove("no-scroll");
       }
     };
 
@@ -25,6 +26,12 @@ export function useNavMenu() {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+
+  useEffect(() => {
+    if (!isMenuOpen) {
+      document.body.classList.remove("no-scroll");
+    }
+  }, [isMenuOpen]);
 
   return { isMenuOpen, handleClick };
 }
