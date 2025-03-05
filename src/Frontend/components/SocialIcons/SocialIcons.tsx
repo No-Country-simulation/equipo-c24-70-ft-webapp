@@ -1,4 +1,4 @@
-import { FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import "./SocialIcons.css";
 import { FC } from "react";
 import { SocialIconsProps } from "../../Store/types";
@@ -16,8 +16,12 @@ const SocialIcons: FC<SocialIconsProps> = ({ borderRadius }) => {
         </a>
       </li>
       <li>
-        <a className={`${border}`} href="#" title="Facebook">
-          <FaFacebook />
+        <a
+          className={`${border}`}
+          href="#"
+          title={borderRadius ? "GitHub" : "Facebook"}
+        >
+          {borderRadius ? <FaGithub /> : <FaFacebook />}
         </a>
       </li>
       <li>

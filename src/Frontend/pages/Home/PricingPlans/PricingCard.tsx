@@ -1,6 +1,5 @@
 import { PricingCardProps } from "../../../Store/types";
 import { FC } from "react";
-
 import "./PricingCard.css";
 import CheckIcon from "../../../components/CheckIcon/CheckIcon";
 
