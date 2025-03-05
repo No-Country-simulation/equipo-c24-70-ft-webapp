@@ -1,36 +1,8 @@
-import React, { useState, useEffect } from "react";
 import { FaChevronUp } from "react-icons/fa";
+import { useScrollButton } from "../../hooks/useScrollButton";
 
-const ScrollToTopButton: React.FC = () => {
-  const [isVisible, setIsVisible] = useState<boolean>(false);
-
-  // Función para manejar el scroll y mostrar/ocultar el botón
-  const toggleVisibility = () => {
-    // Si el scroll desde la parte superior es mayor a 300px, mostrar el botón
-    if (window.pageYOffset > 300) {
-      setIsVisible(true);
-    } else {
-      setIsVisible(false);
-    }
-  };
-
-  // Función para hacer scroll hacia arriba
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
-
-  // Añadir event listener para el scroll cuando el componente se monta
-  useEffect(() => {
-    window.addEventListener("scroll", toggleVisibility);
-
-    // Limpiar el event listener cuando el componente se desmonta
-    return () => {
-      window.removeEventListener("scroll", toggleVisibility);
-    };
-  }, []);
+function ScrollToTopButton() {
+  const { isVisible, scrollToTop } = useScrollButton();
 
   return (
     <>
@@ -46,6 +18,6 @@ const ScrollToTopButton: React.FC = () => {
       )}
     </>
   );
-};
+}
 
 export default ScrollToTopButton;
