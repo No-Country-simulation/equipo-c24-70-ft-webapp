@@ -92,14 +92,7 @@ function Footer() {
           <FaGithub />
         </a>
         <p className="text-neutral-400 text-center w-2/3 md:w-auto">
-          LockKey copyright © 2025. Todos los derechos{" "}
-          <a
-            href="https://html.designingmedia.com/whizcyber/index.html"
-            target="_blank"
-          >
-            reservados
-          </a>
-          .
+          LockKey copyright © 2025. Todos los derechos reservados.
         </p>
         <span className="w-8"></span>
       </article>

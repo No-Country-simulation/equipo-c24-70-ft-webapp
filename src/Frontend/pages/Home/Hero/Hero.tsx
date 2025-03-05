@@ -1,6 +1,7 @@
 import HeroBanner from "../../../../assets/hero-banner.png";
 import CircleImg from "../../../../assets/circle-background-img.png";
 import GradientImg from "../../../../assets/gradient-background-img.png";
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -19,8 +20,12 @@ function Hero() {
           guarda y rellena contraseñas seguras automáticamente.
         </p>
         <div className="flex gap-4 mb-5">
-          <button className="btn__primary btn__lime">Business</button>
-          <button className="btn__primary">Personal</button>
+          <Link to="/login" className="btn__primary btn__lime">
+            Empieza Hoy
+          </Link>
+          <Link to="/contact" className="btn__primary">
+            Contáctanos
+          </Link>
         </div>
         <p className="text-sm text-neutral-600">
           Prueba gratuita para todos los planes disponibles. Sin tarjeta de

@@ -1,4 +1,4 @@
-import LogoIcon from "../../../assets/logo-icon.png";
+import LogoIcon from "../../../assets/lockkey-logo.png";
 import { MdMenu, MdClose, MdPerson } from "react-icons/md";
 import HeaderNavBar from "./HeaderNavBar";
 import "./Header.css";
@@ -9,11 +9,11 @@ function Header() {
   const { isMenuOpen, handleClick } = useNavMenu();
 
   return (
-    <header className="header p-4 md:px-10 md:py-6 text-[20px] font-[600] mb-8">
+    <header className="header p-4 md:px-10 md:py-5 text-[20px] font-[600] mb-8">
       <div className="flex justify-between items-center">
         <Link to="/" className="flex items-center gap-2 z-10" title="Inicio">
           <img
-            className="max-w-12"
+            className="max-w-12 bg-white md:bg-[#cff500] p-1 rounded-full"
             src={LogoIcon}
             alt="Logo de LockKey, una serpiente con un candado."
             width={200}
