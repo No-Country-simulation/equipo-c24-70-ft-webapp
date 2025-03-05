@@ -1,12 +1,6 @@
 import { FC, useState } from "react";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
-
-interface AccordionProps {
-  id: number;
-  title: string;
-  content: string;
-  multiple?: boolean; // Permite abrir múltiples secciones
-}
+import { AccordionProps } from "../../Store/types";
 
 export const Accordion: FC<AccordionProps> = ({ id, title, content }) => {
   const [activeIndexes, setActiveIndexes] = useState<number[]>([]);

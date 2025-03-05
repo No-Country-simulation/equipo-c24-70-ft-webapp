@@ -52,3 +52,9 @@ export interface TeamCardProps {
   name: string;
   occupation: string;
 }
+
+export interface AccordionProps {
+  id: number;
+  title: string;
+  content: string;
+}
