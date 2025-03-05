@@ -46,3 +46,9 @@ export interface ServicesCardProps {
   img: string;
   paragraph: string;
 }
+
+export interface TeamCardProps {
+  img: string;
+  name: string;
+  occupation: string;
+}
