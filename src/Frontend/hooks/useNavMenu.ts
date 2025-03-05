@@ -5,6 +5,8 @@ export function useNavMenu() {
 
   const handleClick = () => {
     setIsMenuOpen(!isMenuOpen);
+    if (window.innerWidth > 768) return;
+
     if (!isMenuOpen) {
       document.body.classList.add("no-scroll");
     } else {
@@ -16,7 +18,7 @@ export function useNavMenu() {
     const handleResize = () => {
       if (window.innerWidth > 768) {
         setIsMenuOpen(false);
-        document.body.classList.remove("no-scroll");
+        // document.body.classList.remove("no-scroll");
       }
     };
 
