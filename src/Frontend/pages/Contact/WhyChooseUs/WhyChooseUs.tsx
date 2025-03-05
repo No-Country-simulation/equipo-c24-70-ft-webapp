@@ -7,7 +7,7 @@ function WhyChooseUs() {
   return (
     <section className="container" id="why-choose-us">
       <article className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center py-8">
-        <article>
+        <article className="order-2 md:order-none">
           <h1 className="text-lg uppercase mb-2">Por qué elegirnos</h1>
           <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold mb-5">
             Tu Seguridad es Nuestra Prioridad
@@ -56,7 +56,7 @@ function WhyChooseUs() {
             </li>
           </ul>
         </article>
-        <aside className=" grid grid-cols-3 grid-rows-7 gap-6 mx-auto">
+        <aside className="order-1 md:order-none grid grid-cols-3 grid-rows-7 gap-6 mx-auto">
           <figure className="row-start-3 row-span-2 rounded-xl overflow-hidden">
             <img
               className="w-full h-full object-cover"
