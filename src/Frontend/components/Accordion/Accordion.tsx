@@ -1,13 +1,10 @@
-import { FC, useState } from "react";
+import { FC } from "react";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 import { AccordionProps } from "../../Store/types";
+import { useActiveIndex } from "../../hooks/useActiveIndex";
 
 export const Accordion: FC<AccordionProps> = ({ id, title, content }) => {
-  const [activeIndexes, setActiveIndexes] = useState<number[]>([]);
-
-  const toggleSection = (index: number) => {
-    setActiveIndexes(activeIndexes.includes(index) ? [] : [index]);
-  };
+  const { activeIndex, toggleSection } = useActiveIndex();
 
   return (
     <div key={id} className="text-left">
@@ -17,15 +14,10 @@ export const Accordion: FC<AccordionProps> = ({ id, title, content }) => {
       >
         <span className="font-semibold">{title}</span>
         <span className="background__accent-lime rounded-full p-2">
-          {activeIndexes.includes(id) ? (
-            <FaChevronUp className="text-gray-600" />
-          ) : (
-            <FaChevronDown className="text-gray-600" />
-          )}
+          {activeIndex === id ? <FaChevronUp /> : <FaChevronDown />}
         </span>
       </button>
-
-      {activeIndexes.includes(id) && (
+      {activeIndex === id && (
         <div className="p-4 bg-gray-50 text-gray-700 transition-all duration-300 ease-in-out">
           {content}
         </div>
