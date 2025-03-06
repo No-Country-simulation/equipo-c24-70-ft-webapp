@@ -1,5 +1,6 @@
 :root {
   --accent-lime-color: #cff500;
+  --purple-dark-color: #9c5bff;
   --purple-vivid-color: #a66cff;
   --purple-fade-color: rgba(167, 108, 255, 0.5);
   --background-white: #fff;
@@ -45,6 +46,10 @@ body {
 
 .text__accent-purple {
   color: var(--purple-vivid-color);
+}
+
+.text__purple-dark {
+  color: var(--purple-dark-color);
 }
 
 .text__accent-lime {
