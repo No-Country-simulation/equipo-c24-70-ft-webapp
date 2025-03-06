@@ -39,6 +39,9 @@ export interface CarouselProps {
 
 export interface SocialIconsProps {
   borderRadius: boolean;
+  linkedin?: string;
+  github?: string;
+  portfolio?: string;
 }
 
 export interface ServicesCardProps {
@@ -51,6 +54,9 @@ export interface TeamCardProps {
   img: string;
   name: string;
   occupation: string;
+  linkedin: string;
+  github: string;
+  portfolio: string;
 }
 
 export interface AccordionProps {

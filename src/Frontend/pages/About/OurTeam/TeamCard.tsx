@@ -2,7 +2,14 @@ import { FC } from "react";
 import { TeamCardProps } from "../../../Store/types";
 import SocialIcons from "../../../components/SocialIcons/SocialIcons";
 
-export const TeamCard: FC<TeamCardProps> = ({ img, name, occupation }) => {
+export const TeamCard: FC<TeamCardProps> = ({
+  img,
+  name,
+  occupation,
+  linkedin,
+  github,
+  portfolio,
+}) => {
   return (
     <article className="text-center">
       <header className="box-shadow__item relative mb-8 rounded-lg">
@@ -17,7 +24,12 @@ export const TeamCard: FC<TeamCardProps> = ({ img, name, occupation }) => {
           />
         </figure>
         <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2">
-          <SocialIcons borderRadius={true} />
+          <SocialIcons
+            borderRadius={true}
+            linkedin={linkedin}
+            github={github}
+            portfolio={portfolio}
+          />
         </div>
       </header>
       <h2 className="text-xl font-bold">{name}</h2>
