@@ -4,7 +4,7 @@ export const featuresItems = [
     img: "../../../src/assets/features-icon1.avif",
     title: "Descubra el poder de la automatización",
     paragraph:
-      "Cree, guarde y rellene las contraseñas automáticamente, y dedique su atención a lo importante de verdad.",
+      "Cree, guarde y rellene las contraseñas automáticamente, y dedique su atención a lo que realmente importa.",
   },
   {
     id: 2,
@@ -16,15 +16,15 @@ export const featuresItems = [
   {
     id: 3,
     img: "../../../src/assets/features-icon3.avif",
-    title: "Evite contraseñas poco seguras y reutilizadas",
+    title: "Evite contraseñas débiles",
     paragraph:
       "Nuestro gestor genera contraseñas seguras para todas sus cuentas y las guarda para que no tenga que memorizarlas.",
   },
   {
     id: 4,
     img: "../../../src/assets/features-icon4.avif",
-    title: "No vuelva a quedarse fuera",
+    title: "Accede desde cualquier lugar",
     paragraph:
-      "Acceda a sus contraseñas desde cualquier sitio y en cualquier dispositivo para entrar en sus cuentas importantes siempre que lo necesite.",
+      "Consulte sus contraseñas desde cualquier sitio y en cualquier dispositivo para entrar en sus cuentas siempre que lo necesite.",
   },
 ];
