@@ -2,6 +2,7 @@ import { PricingCardProps } from "../../../Store/types";
 import { FC } from "react";
 import "./PricingCard.css";
 import CheckIcon from "../../../components/CheckIcon/CheckIcon";
+import { Link } from "react-router-dom";
 
 export const PricingCard: FC<PricingCardProps> = ({
   category,
@@ -10,8 +11,8 @@ export const PricingCard: FC<PricingCardProps> = ({
   list,
 }) => {
   return (
-    <a
-      href="#"
+    <Link
+      to="/login"
       className="pricing-card__container rounded-lg py-8 px-8 xl:px-12"
       title="Ver detalles del plan"
     >
@@ -40,6 +41,6 @@ export const PricingCard: FC<PricingCardProps> = ({
           ))}
         </ul>
       </div>
-    </a>
+    </Link>
   );
 };
