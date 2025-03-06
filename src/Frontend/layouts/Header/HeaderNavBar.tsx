@@ -18,7 +18,7 @@ const HeaderNavBar: FC<HeaderNavBarProps> = ({ handleClick }) => {
         </li>
         <li
           onClick={handleClick}
-          className="border border-black px-2 py-1 rounded-md hover:bg-black hover:text-white"
+          className="border border-black px-5 md:px-3 py-1 rounded-md hover:bg-black hover:text-white"
         >
           <Link to="/contact">Contacto</Link>
         </li>

@@ -15,7 +15,7 @@ export function ContactForm() {
           id="name"
           className="p-4 w-full h-full"
           type="text"
-          placeholder="Nombre"
+          placeholder="Nombre *"
           required
           autoComplete="name"
           onBlur={handleBlur}
@@ -33,7 +33,7 @@ export function ContactForm() {
           id="last-name"
           className="p-4 w-full h-full"
           type="text"
-          placeholder="Apellido"
+          placeholder="Apellido *"
           required
           autoComplete="family-name"
           onBlur={handleBlur}
@@ -55,7 +55,7 @@ export function ContactForm() {
           onBlur={handleBlur}
           onFocus={handleFocus}
         >
-          <option value="">Selecciona tu país</option>
+          <option value="">Selecciona tu país *</option>
           <option value="argentina">Argentina</option>
           <option value="bolivia">Bolivia</option>
           <option value="brasil">Brasil</option>
@@ -90,7 +90,7 @@ export function ContactForm() {
           id="email"
           className="p-4 w-full h-full"
           type="email"
-          placeholder="Correo electrónico"
+          placeholder="Correo electrónico *"
           autoComplete="email"
           required
           onBlur={handleBlur}
@@ -114,7 +114,7 @@ export function ContactForm() {
         <textarea
           name="mensaje"
           className="p-4 w-full h-full"
-          placeholder="Mensaje"
+          placeholder="Mensaje *"
           id="message"
           rows={5}
           required

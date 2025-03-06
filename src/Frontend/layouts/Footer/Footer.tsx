@@ -75,7 +75,10 @@ function Footer() {
               autoComplete="email"
               required
             />
-            <button className="btn__primary btn__secondary" type="submit">
+            <button
+              className="btn__primary btn__secondary text-black"
+              type="submit"
+            >
               Enviar
             </button>
           </form>
