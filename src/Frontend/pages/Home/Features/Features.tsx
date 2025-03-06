@@ -5,9 +5,6 @@ function Features() {
   return (
     <section className="features container py-12" id="features">
       <article className="flex flex-col items-center">
-        {/* <h2 className="font-semibold text-4xl lg:text-6xl text-center">
-          Adiós a las frustraciones con tus contraseñas
-        </h2> */}
         <p className="text-lg uppercase mb-2">
           Simplifica tu seguridad digital
         </p>
