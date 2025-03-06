@@ -23,9 +23,8 @@ function Footer() {
             </h2>
           </div>
           <p className="mb-3 text-neutral-400">
-            En un mundo digital en constante cambio, la protección de tus datos
-            es esencial. Somos tu carta del triunfo para gestionar accesos de
-            forma fácil, segura y eficiente.
+            La seguridad de tus datos es nuestra prioridad. Simplifica y protege
+            tus accesos con una gestión segura, eficiente y sin complicaciones.
           </p>
           <SocialIcons borderRadius={false} />
         </article>
