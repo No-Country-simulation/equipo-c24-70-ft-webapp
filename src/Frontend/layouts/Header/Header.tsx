@@ -1,15 +1,23 @@
 import LogoIcon from "../../../assets/lockkey-logo.avif";
-import { MdMenu, MdClose, MdPerson } from "react-icons/md";
+import { MdMenu, MdClose, MdPerson, MdPowerSettingsNew } from "react-icons/md";
 import HeaderNavBar from "./HeaderNavBar";
 import "./Header.css";
 import { useNavMenu } from "../../hooks/useNavMenu";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 function Header() {
   const { isMenuOpen, handleClick } = useNavMenu();
+  const location = useLocation();
+  const navigate = useNavigate();
+  const isPanel = location.pathname === "/panel";
+
+  const handleLogout = () => {
+    localStorage.removeItem("access_token"); 
+    navigate("/"); 
+  };
 
   return (
-    <header className="header p-4 md:px-10 md:py-5 text-[20px] font-[600] mb-8">
+    <header className={`header p-4 md:px-10 md:py-5 text-[20px] font-[600] ${isPanel ? 'mb-1' : 'mb-8'}`}>
       <div className="flex justify-between items-center">
         <Link to="/" className="flex items-center gap-2 z-10" title="Inicio">
           <img
@@ -37,13 +45,23 @@ function Header() {
             {isMenuOpen ? <MdClose /> : <MdMenu />}
           </button>
 
-          <Link
-            to="/login"
-            className="text-3xl hover:opacity-75 z-10"
-            title="Iniciar Sesión"
-          >
-            <MdPerson />
-          </Link>
+          {isPanel ? (
+            <button
+              onClick={handleLogout}
+              className="text-3xl z-10 text-black hover:text-[--purple-vivid-color] transition-colors duration-300"
+              title="Cerrar Sesión"
+            >
+              <MdPowerSettingsNew />
+            </button>
+          ) : (
+            <Link
+              to="/login"
+              className="text-3xl hover:opacity-75 z-10"
+              title="Iniciar Sesión"
+            >
+              <MdPerson />
+            </Link>
+          )}
         </div>
 
         <div
