@@ -1,50 +1,72 @@
-# React + TypeScript + Vite
+<div style="text-align: center;">
+  <img src="https://img.shields.io/badge/Status-Completado-brightgreen" alt="Status">
+  <img src="https://img.shields.io/badge/Versión-1.0-blue" alt="Versión">
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# LockKey
 
-Currently, two official plugins are available:
+LockKey es un gestor de contraseñas seguro y eficiente diseñado para facilitar el almacenamiento y gestión de credenciales de manera confiable.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 👥 Integrantes
 
-## Expanding the ESLint configuration
+### Nataly Castañeda  
+**Rol:** Fullstack Developer  
+[Foto aquí]
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Emmanuel Cruz  
+**Rol:** Frontend Developer  
+[Foto aquí]
 
-- Configure the top-level `parserOptions` property like this:
+## 🔒 Descripción
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+LockKey permite a los usuarios generar, almacenar y gestionar contraseñas de manera segura, utilizando encriptación avanzada para proteger la información. Cuenta con autenticación segura, gestión de credenciales organizadas por categorías y medidas de protección contra ataques malintencionados.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 🚀 Tecnologías utilizadas
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### Frontend
+<div style="text-align: left;">
+  <img src="https://img.shields.io/badge/Vite-%E2%9C%94-blue?logo=vite&logoColor=white" alt="Vite">
+  <img src="https://img.shields.io/badge/React-%E2%9C%94-blue?logo=react&logoColor=white" alt="React">
+  <img src="https://img.shields.io/badge/TypeScript-%E2%9C%94-blue?logo=typescript&logoColor=white" alt="TypeScript">
+</div>
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Backend
+<div style="text-align: left;">
+  <img src="https://img.shields.io/badge/Python-%E2%9C%94-yellow?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Flask-%E2%9C%94-black?logo=flask&logoColor=white" alt="Flask">
+  <img src="https://img.shields.io/badge/PostgreSQL-%E2%9C%94-blue?logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/JWT-%E2%9C%94-red?logo=jsonwebtokens&logoColor=white" alt="JWT">
+  <img src="https://img.shields.io/badge/Werkzeug-%E2%9C%94-green" alt="Werkzeug">
+</div>
+
+## ✨ Características
+
+- Cifrado de contraseñas con algoritmos avanzados.
+- Autenticación y autorización seguras con JWT.
+- Organización de credenciales en categorías.
+- Protección contra ataques de fuerza bruta y monitoreo de actividad.
+
+## ⚙️ Instalación
+
+1. Clona el repositorio:  
+   ```bash
+  ## Instalación
+1. Clona el repositorio:  
+   ```bash
+   git clone https://github.com/tu-repositorio.git
+   ```
+2. Instala las dependencias:  
+   ```bash
+   npm install   # Frontend  
+   pip install -r requirements.txt   # Backend
+   ```
+3. Configura las variables de entorno
+4. Inicia la aplicación:  
+   ```bash
+   npm run dev   # Frontend con Vite  
+   python app.py   # Backend
+   ```
+
+## Contribución
+Si deseas contribuir a LockKey, por favor sigue las mejores prácticas de desarrollo y abre un Pull Request con tus cambios.
+
