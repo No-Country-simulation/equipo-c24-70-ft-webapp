@@ -9,18 +9,12 @@ LockKey es un gestor de contraseñas seguro y eficiente diseñado para facilitar
 
 # 👥 Desarrolladores
 
-## Nataly Castañeda
-**Rol:** Fullstack  
-**Foto:** [Ver foto](https://drive.google.com/file/d/1PkPoUrCVqsC9mx3Mv9N-cvTlLcmYgtaQ/view?usp=drive_link)  
-**LinkedIn:** [https://www.linkedin.com/in/nataly-castaneda/](https://www.linkedin.com/in/nataly-castaneda/)  
-**Github:** [https://github.com/nath1710](https://github.com/nath1710)
-
-## Emmanuel Cruz
-**Rol:** Frontend  
-**Foto:** [Ver foto](https://drive.google.com/file/d/1vqeJ1Jr2vbL2mGPCyID4bXR0H3VcMMJQ/view?usp=drive_link)  
-**LinkedIn:** [https://www.linkedin.com/in/emmanuel-cruz-dev/](https://www.linkedin.com/in/emmanuel-cruz-dev/)  
-**Github:** [https://github.com/emmanuel-cruz-dev](https://github.com/emmanuel-cruz-dev)
-
+| | |
+|:---:|:---:|
+| ![Nataly Castañeda](./public/nataly-castaneda.jpg) | ![Emmanuel Cruz](./public/emmanuel-cruz.jpg) |
+| **Nataly Castañeda** | **Emmanuel Cruz** |
+| **Fullstack** | **Frontend** |
+| [![GitHub](https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white)](https://github.com/nath1710) [![LinkedIn](https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nataly-castaneda/) | [![GitHub](https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white)](https://github.com/emmanuel-cruz-dev) [![LinkedIn](https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/emmanuel-cruz-dev/) |
 ## 🔒 Descripción
 
 LockKey permite a los usuarios generar, almacenar y gestionar contraseñas de manera segura, utilizando encriptación avanzada para proteger la información. Cuenta con autenticación segura, gestión de credenciales organizadas por categorías y medidas de protección contra ataques malintencionados.
