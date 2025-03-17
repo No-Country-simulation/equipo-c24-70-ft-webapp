@@ -7,15 +7,19 @@
 
 LockKey es un gestor de contraseñas seguro y eficiente diseñado para facilitar el almacenamiento y gestión de credenciales de manera confiable.
 
-## 👥 Integrantes
+# 👥 Desarrolladores
 
-### Nataly Castañeda  
-**Rol:** Fullstack Developer  
-[Foto aquí]
+## Nataly Castañeda
+**Rol:** Fullstack  
+**Foto:** [Ver foto](https://drive.google.com/file/d/1PkPoUrCVqsC9mx3Mv9N-cvTlLcmYgtaQ/view?usp=drive_link)  
+**LinkedIn:** [https://www.linkedin.com/in/nataly-castaneda/](https://www.linkedin.com/in/nataly-castaneda/)  
+**Github:** [https://github.com/nath1710](https://github.com/nath1710)
 
-### Emmanuel Cruz  
-**Rol:** Frontend Developer  
-[Foto aquí]
+## Emmanuel Cruz
+**Rol:** Frontend  
+**Foto:** [Ver foto](https://drive.google.com/file/d/1vqeJ1Jr2vbL2mGPCyID4bXR0H3VcMMJQ/view?usp=drive_link)  
+**LinkedIn:** [https://www.linkedin.com/in/emmanuel-cruz-dev/](https://www.linkedin.com/in/emmanuel-cruz-dev/)  
+**Github:** [https://github.com/emmanuel-cruz-dev](https://github.com/emmanuel-cruz-dev)
 
 ## 🔒 Descripción
 
@@ -46,10 +50,6 @@ LockKey permite a los usuarios generar, almacenar y gestionar contraseñas de ma
 - Organización de credenciales en categorías.
 - Protección contra ataques de fuerza bruta y monitoreo de actividad.
 
-## ⚙️ Instalación
-
-1. Clona el repositorio:  
-   ```bash
   ## Instalación
 1. Clona el repositorio:  
    ```bash
