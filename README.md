@@ -11,7 +11,7 @@ LockKey es un gestor de contraseñas seguro y eficiente diseñado para facilitar
 
 | | |
 |:---:|:---:|
-| ![Nataly Castañeda](./public/nataly-castaneda.jpg) | ![Emmanuel Cruz](./public/emmanuel-cruz.jpg) |
+| ![Nataly Castañeda](./public/nataly-castaneda.webp) | ![Emmanuel Cruz](./public/emmanuel-cruz.webp) |
 | **Nataly Castañeda** | **Emmanuel Cruz** |
 | **Fullstack** | **Frontend** |
 | [![GitHub](https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white)](https://github.com/nath1710) [![LinkedIn](https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nataly-castaneda/) | [![GitHub](https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white)](https://github.com/emmanuel-cruz-dev) [![LinkedIn](https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/emmanuel-cruz-dev/) |
