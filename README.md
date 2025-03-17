@@ -11,10 +11,11 @@ LockKey es un gestor de contraseñas seguro y eficiente diseñado para facilitar
 
 | | |
 |:---:|:---:|
-| ![Nataly Castañeda](./public/nataly-castaneda.webp) | ![Emmanuel Cruz](./public/emmanuel-cruz.webp) |
+| <img src="./public/nataly-castaneda.webp" width="300" height="300" alt="Nataly Castañeda"> | <img src="./public/emmanuel-cruz.webp" width="300" height="300" alt="Emmanuel Cruz"> |
 | **Nataly Castañeda** | **Emmanuel Cruz** |
 | **Fullstack** | **Frontend** |
 | [![GitHub](https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white)](https://github.com/nath1710) [![LinkedIn](https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nataly-castaneda/) | [![GitHub](https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white)](https://github.com/emmanuel-cruz-dev) [![LinkedIn](https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/emmanuel-cruz-dev/) |
+
 ## 🔒 Descripción
 
 LockKey permite a los usuarios generar, almacenar y gestionar contraseñas de manera segura, utilizando encriptación avanzada para proteger la información. Cuenta con autenticación segura, gestión de credenciales organizadas por categorías y medidas de protección contra ataques malintencionados.
